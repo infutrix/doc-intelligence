@@ -1,0 +1,72 @@
+# ==============================================================================
+# OCR Pipeline V2 - Requirements
+# ==============================================================================
+# Install with: pip install -r requirements.txt
+# ==============================================================================
+
+# -----------------------------------------------------------------------------
+# Core Dependencies
+# -----------------------------------------------------------------------------
+numpy
+opencv-python
+Pillow
+
+# -----------------------------------------------------------------------------
+# Document Layout Detection (Stage 1)
+# -----------------------------------------------------------------------------
+doclayout-yolo
+
+# -----------------------------------------------------------------------------
+# Text Detection & Recognition (Stage 2)
+# -----------------------------------------------------------------------------
+paddleocr
+paddlepaddle          # CPU version
+# paddlepaddle-gpu    # Uncomment for GPU support (requires CUDA)
+
+# -----------------------------------------------------------------------------
+# Vision Language Model (Stage 3)
+# -----------------------------------------------------------------------------
+torch
+transformers>=4.37.0
+qwen-vl-utils
+accelerate
+
+# -----------------------------------------------------------------------------
+# PDF Processing
+# -----------------------------------------------------------------------------
+pdf2image
+# SYSTEM DEPENDENCY: Poppler required
+#   Windows: https://github.com/oschwartz10612/poppler-windows/releases
+#   Linux:   sudo apt-get install poppler-utils
+#   Mac:     brew install poppler
+
+# -----------------------------------------------------------------------------
+# Streamlit Web UI
+# -----------------------------------------------------------------------------
+streamlit
+pandas
+streamlit-image-coordinates    # For click detection on images
+
+# -----------------------------------------------------------------------------
+# Optional: Faster Inference (requires CUDA & compilation)
+# -----------------------------------------------------------------------------
+# pip install flash-attn --no-build-isolation
+
+# ==============================================================================
+# SYSTEM DEPENDENCIES (install separately)
+# ==============================================================================
+#
+# 1. POPPLER (required for PDF processing)
+#    ├── Windows: Download from poppler-windows releases, add bin/ to PATH
+#    ├── Linux:   sudo apt-get install poppler-utils
+#    └── Mac:     brew install poppler
+#
+# 2. HINDI/DEVANAGARI FONTS (for visualization)
+#    ├── Windows: Pre-installed (Nirmala UI, Mangal)
+#    ├── Linux:   sudo apt-get install fonts-noto fonts-noto-extra
+#    └── Mac:     Pre-installed (Arial Unicode)
+#
+# 3. DOCLAYOUT-YOLO MODEL
+#    └── Download and place in models/ folder, update config.py
+#
+# ==============================================================================
