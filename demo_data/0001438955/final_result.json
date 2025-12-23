@@ -1,0 +1,3010 @@
+{
+  "image_path": "/workspace/Paras/Streamlit/Dhananjay/OCR_challenge/data_2/0001438955.png",
+  "image_name": "0001438955.png",
+  "dimensions": {
+    "width": 762,
+    "height": 1000
+  },
+  "sections": [
+    {
+      "id": 9,
+      "label": "Text",
+      "bbox_pixels": [
+        279,
+        81,
+        420,
+        98
+      ],
+      "bbox_normalized": [
+        374,
+        82,
+        564,
+        100
+      ],
+      "confidence": 0.9772719144821167,
+      "children": [
+        {
+          "id": 5001,
+          "bbox_pixels": [
+            279,
+            84,
+            419,
+            98
+          ],
+          "bbox_normalized": [
+            0,
+            180,
+            1016,
+            1024
+          ],
+          "bbox_section_relative": [
+            0,
+            3,
+            140,
+            17
+          ],
+          "confidence": 0.9728074073791504,
+          "ocr_text_paddle": "NEWSPAPER SCORES",
+          "ocr_text": "NEWSPAPER SCORES",
+          "font_style": "normal",
+          "decoration": "normal"
+        }
+      ],
+      "raw_text": "NEWSPAPER SCORES",
+      "ocr_text": "NEWSPAPER SCORES",
+      "children_ocr_texts": [
+        "NEWSPAPER SCORES"
+      ],
+      "entities": [],
+      "description": "Section title indicating the document is about newspaper scores."
+    },
+    {
+      "id": 11,
+      "label": "Text",
+      "bbox_pixels": [
+        281,
+        111,
+        419,
+        126
+      ],
+      "bbox_normalized": [
+        377,
+        113,
+        563,
+        129
+      ],
+      "confidence": 0.9871936440467834,
+      "children": [],
+      "raw_text": "AUDIENCE STUDIES",
+      "ocr_text": "",
+      "children_ocr_texts": [],
+      "entities": [],
+      "description": "Empty section, likely a placeholder or separator."
+    },
+    {
+      "id": 1,
+      "label": "Text",
+      "bbox_pixels": [
+        41,
+        175,
+        704,
+        281
+      ],
+      "bbox_normalized": [
+        55,
+        179,
+        946,
+        287
+      ],
+      "confidence": 0.6580258011817932,
+      "children": [
+        {
+          "id": 5002,
+          "bbox_pixels": [
+            45,
+            261,
+            344,
+            281
+          ],
+          "bbox_normalized": [
+            6,
+            830,
+            467,
+            1024
+          ],
+          "bbox_section_relative": [
+            4,
+            86,
+            303,
+            106
+          ],
+          "confidence": 0.8776084780693054,
+          "ocr_text_paddle": "Type Of Ad PARADE, 1 Page, 4-Color",
+          "ocr_text": "Type Of Ad PARADE, 1 Page, 4-Color",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5003,
+          "bbox_pixels": [
+            44,
+            234,
+            102,
+            254
+          ],
+          "bbox_normalized": [
+            4,
+            569,
+            94,
+            763
+          ],
+          "bbox_section_relative": [
+            3,
+            59,
+            61,
+            79
+          ],
+          "confidence": 0.976158618927002,
+          "ocr_text_paddle": "Code #",
+          "ocr_text": "Code #",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5004,
+          "bbox_pixels": [
+            142,
+            233,
+            242,
+            251
+          ],
+          "bbox_normalized": [
+            155,
+            560,
+            310,
+            734
+          ],
+          "bbox_section_relative": [
+            101,
+            58,
+            201,
+            76
+          ],
+          "confidence": 0.9972076416015625,
+          "ocr_text_paddle": "R/BSS-71-19",
+          "ocr_text": "R/BSS-71-19",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5005,
+          "bbox_pixels": [
+            45,
+            208,
+            92,
+            224
+          ],
+          "bbox_normalized": [
+            6,
+            318,
+            78,
+            473
+          ],
+          "bbox_section_relative": [
+            4,
+            33,
+            51,
+            49
+          ],
+          "confidence": 0.9863066673278809,
+          "ocr_text_paddle": "Title",
+          "ocr_text": "Title",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5006,
+          "bbox_pixels": [
+            483,
+            205,
+            592,
+            220
+          ],
+          "bbox_normalized": [
+            682,
+            289,
+            851,
+            434
+          ],
+          "bbox_section_relative": [
+            442,
+            30,
+            551,
+            45
+          ],
+          "confidence": 0.9880556464195251,
+          "ocr_text_paddle": "Total Sample",
+          "ocr_text": "Total Sample",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5007,
+          "bbox_pixels": [
+            144,
+            203,
+            443,
+            223
+          ],
+          "bbox_normalized": [
+            159,
+            270,
+            620,
+            463
+          ],
+          "bbox_section_relative": [
+            103,
+            28,
+            402,
+            48
+          ],
+          "confidence": 0.9671623110771179,
+          "ocr_text_paddle": "\"KALEIDOSCOPE--GONE WITH THE WIND\"*",
+          "ocr_text": "\"KALEIDOSCOPE--GONE WITH THE WIND\"*",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5008,
+          "bbox_pixels": [
+            607,
+            203,
+            639,
+            218
+          ],
+          "bbox_normalized": [
+            874,
+            270,
+            923,
+            415
+          ],
+          "bbox_section_relative": [
+            566,
+            28,
+            598,
+            43
+          ],
+          "confidence": 0.9981669783592224,
+          "ocr_text_paddle": "285",
+          "ocr_text": "285",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5009,
+          "bbox_pixels": [
+            43,
+            178,
+            93,
+            197
+          ],
+          "bbox_normalized": [
+            3,
+            28,
+            80,
+            212
+          ],
+          "bbox_section_relative": [
+            2,
+            3,
+            52,
+            22
+          ],
+          "confidence": 0.9968558549880981,
+          "ocr_text_paddle": "Brand",
+          "ocr_text": "Brand",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5010,
+          "bbox_pixels": [
+            143,
+            178,
+            200,
+            194
+          ],
+          "bbox_normalized": [
+            157,
+            28,
+            245,
+            183
+          ],
+          "bbox_section_relative": [
+            102,
+            3,
+            159,
+            19
+          ],
+          "confidence": 0.9968480467796326,
+          "ocr_text_paddle": "BELAIR",
+          "ocr_text": "BELAIR",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5011,
+          "bbox_pixels": [
+            479,
+            176,
+            564,
+            192
+          ],
+          "bbox_normalized": [
+            676,
+            9,
+            807,
+            164
+          ],
+          "bbox_section_relative": [
+            438,
+            1,
+            523,
+            17
+          ],
+          "confidence": 0.9425980448722839,
+          "ocr_text_paddle": "Project #",
+          "ocr_text": "Project #",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5012,
+          "bbox_pixels": [
+            600,
+            175,
+            654,
+            192
+          ],
+          "bbox_normalized": [
+            863,
+            0,
+            946,
+            164
+          ],
+          "bbox_section_relative": [
+            559,
+            0,
+            613,
+            17
+          ],
+          "confidence": 0.9966744184494019,
+          "ocr_text_paddle": "72-31",
+          "ocr_text": "72-31",
+          "font_style": "normal",
+          "decoration": "normal"
+        }
+      ],
+      "raw_text": "",
+      "ocr_text": "Brand BELAIR\nTitle \"KALEIDOSCOPE--GONE WITH THE WIND\"*\nCode # R/BSS-71-19\nType Of Ad PARADE, 1 Page, 4-Color\nTotal Sample 285\nProject # 72-31",
+      "children_ocr_texts": [
+        "Type Of Ad PARADE, 1 Page, 4-Color",
+        "Code #",
+        "R/BSS-71-19",
+        "Title",
+        "Total Sample",
+        "\"KALEIDOSCOPE--GONE WITH THE WIND\"*",
+        "285",
+        "Brand",
+        "BELAIR",
+        "Project #",
+        "72-31"
+      ],
+      "entities": [
+        {
+          "Brand": "BELAIR"
+        },
+        {
+          "Title": "\"KALEIDOSCOPE--GONE WITH THE WIND\"*"
+        },
+        {
+          "Code #": "R/BSS-71-19"
+        },
+        {
+          "Type Of Ad": "PARADE, 1 Page, 4-Color"
+        },
+        {
+          "Total Sample": "285"
+        },
+        {
+          "Project #": "72-31"
+        }
+      ],
+      "description": "Ad campaign details including brand, title, code, type, total sample, and project number."
+    },
+    {
+      "id": 2,
+      "label": "Text",
+      "bbox_pixels": [
+        42,
+        291,
+        704,
+        394
+      ],
+      "bbox_normalized": [
+        56,
+        297,
+        946,
+        403
+      ],
+      "confidence": 0.6604788303375244,
+      "children": [
+        {
+          "id": 5013,
+          "bbox_pixels": [
+            359,
+            378,
+            483,
+            389
+          ],
+          "bbox_normalized": [
+            490,
+            864,
+            682,
+            974
+          ],
+          "bbox_section_relative": [
+            317,
+            87,
+            441,
+            98
+          ],
+          "confidence": 0.9919009804725647,
+          "ocr_text_paddle": "BIRMINGHAMNEWS",
+          "ocr_text": "BIRMINGHAMNEWS",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5014,
+          "bbox_pixels": [
+            216,
+            376,
+            303,
+            391
+          ],
+          "bbox_normalized": [
+            269,
+            845,
+            403,
+            994
+          ],
+          "bbox_section_relative": [
+            174,
+            85,
+            261,
+            100
+          ],
+          "confidence": 0.9863739013671875,
+          "ocr_text_paddle": "Birmingham",
+          "ocr_text": "Birmingham",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5015,
+          "bbox_pixels": [
+            542,
+            373,
+            617,
+            391
+          ],
+          "bbox_normalized": [
+            773,
+            815,
+            889,
+            994
+          ],
+          "bbox_section_relative": [
+            500,
+            82,
+            575,
+            100
+          ],
+          "confidence": 0.9943697452545166,
+          "ocr_text_paddle": "(4/23/72)",
+          "ocr_text": "(4/23/72)",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5016,
+          "bbox_pixels": [
+            358,
+            350,
+            452,
+            364
+          ],
+          "bbox_normalized": [
+            488,
+            586,
+            634,
+            725
+          ],
+          "bbox_section_relative": [
+            316,
+            59,
+            410,
+            73
+          ],
+          "confidence": 0.9479170441627502,
+          "ocr_text_paddle": "DAYTON NEWS",
+          "ocr_text": "DAYTON NEWS",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5017,
+          "bbox_pixels": [
+            216,
+            350,
+            270,
+            365
+          ],
+          "bbox_normalized": [
+            269,
+            586,
+            352,
+            735
+          ],
+          "bbox_section_relative": [
+            174,
+            59,
+            228,
+            74
+          ],
+          "confidence": 0.9944943785667419,
+          "ocr_text_paddle": "Dayton",
+          "ocr_text": "Dayton",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5018,
+          "bbox_pixels": [
+            541,
+            341,
+            617,
+            363
+          ],
+          "bbox_normalized": [
+            771,
+            497,
+            889,
+            715
+          ],
+          "bbox_section_relative": [
+            499,
+            50,
+            575,
+            72
+          ],
+          "confidence": 0.9874792098999023,
+          "ocr_text_paddle": "(4/23/72)",
+          "ocr_text": "(4/23/72)",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5019,
+          "bbox_pixels": [
+            357,
+            320,
+            485,
+            336
+          ],
+          "bbox_normalized": [
+            487,
+            288,
+            685,
+            447
+          ],
+          "bbox_section_relative": [
+            315,
+            29,
+            443,
+            45
+          ],
+          "confidence": 0.9666115045547485,
+          "ocr_text_paddle": "SAN DIEGO UNION",
+          "ocr_text": "SAN DIEGO UNION",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5020,
+          "bbox_pixels": [
+            215,
+            320,
+            294,
+            336
+          ],
+          "bbox_normalized": [
+            267,
+            288,
+            389,
+            447
+          ],
+          "bbox_section_relative": [
+            173,
+            29,
+            252,
+            45
+          ],
+          "confidence": 0.9269046783447266,
+          "ocr_text_paddle": "San Diego",
+          "ocr_text": "San Diego",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5021,
+          "bbox_pixels": [
+            541,
+            316,
+            618,
+            336
+          ],
+          "bbox_normalized": [
+            771,
+            248,
+            890,
+            447
+          ],
+          "bbox_section_relative": [
+            499,
+            25,
+            576,
+            45
+          ],
+          "confidence": 0.9486777782440186,
+          "ocr_text_paddle": "(4/23/22)",
+          "ocr_text": "(4/23/22)",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5022,
+          "bbox_pixels": [
+            44,
+            292,
+            195,
+            311
+          ],
+          "bbox_normalized": [
+            3,
+            9,
+            236,
+            198
+          ],
+          "bbox_section_relative": [
+            2,
+            1,
+            153,
+            20
+          ],
+          "confidence": 0.9685016870498657,
+          "ocr_text_paddle": "Newspaper (Date)",
+          "ocr_text": "Newspaper (Date)",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5023,
+          "bbox_pixels": [
+            357,
+            293,
+            493,
+            307
+          ],
+          "bbox_normalized": [
+            487,
+            19,
+            697,
+            159
+          ],
+          "bbox_section_relative": [
+            315,
+            2,
+            451,
+            16
+          ],
+          "confidence": 0.9714131355285645,
+          "ocr_text_paddle": "PITTSBURGH PRESS",
+          "ocr_text": "PITTSBURGH PRESS",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5024,
+          "bbox_pixels": [
+            215,
+            293,
+            302,
+            307
+          ],
+          "bbox_normalized": [
+            267,
+            19,
+            402,
+            159
+          ],
+          "bbox_section_relative": [
+            173,
+            2,
+            260,
+            16
+          ],
+          "confidence": 0.9919726252555847,
+          "ocr_text_paddle": "Pittsburgh",
+          "ocr_text": "Pittsburgh",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5025,
+          "bbox_pixels": [
+            542,
+            291,
+            617,
+            308
+          ],
+          "bbox_normalized": [
+            773,
+            0,
+            889,
+            169
+          ],
+          "bbox_section_relative": [
+            500,
+            0,
+            575,
+            17
+          ],
+          "confidence": 0.9807482957839966,
+          "ocr_text_paddle": "(4/23/72)",
+          "ocr_text": "(4/23/72)",
+          "font_style": "normal",
+          "decoration": "normal"
+        }
+      ],
+      "raw_text": "",
+      "ocr_text": "Newspaper (Date)\nBirmingham BIRMINGHAM NEWS (4/23/72)\nDayton DAYTON NEWS (4/23/72)\nSan Diego SAN DIEGO UNION (4/23/72)\nPittsburgh PITTSBURGH PRESS (4/23/72)",
+      "children_ocr_texts": [
+        "Newspaper (Date)",
+        "Birmingham",
+        "BIRMINGHAMNEWS",
+        "(4/23/72)",
+        "Dayton",
+        "DAYTON NEWS",
+        "(4/23/72)",
+        "San Diego",
+        "SAN DIEGO UNION",
+        "(4/23/22)",
+        "Pittsburgh",
+        "PITTSBURGH PRESS",
+        "(4/23/72)"
+      ],
+      "entities": [
+        {
+          "Newspaper (Date)": "Birmingham BIRMINGHAM NEWS (4/23/72)"
+        },
+        {
+          "Newspaper (Date)": "Dayton DAYTON NEWS (4/23/72)"
+        },
+        {
+          "Newspaper (Date)": "San Diego SAN DIEGO UNION (4/23/72)"
+        },
+        {
+          "Newspaper (Date)": "Pittsburgh PITTSBURGH PRESS (4/23/72)"
+        }
+      ],
+      "description": "List of newspapers and their publication dates for the ad campaign."
+    },
+    {
+      "id": 10,
+      "label": "Text",
+      "bbox_pixels": [
+        337,
+        424,
+        455,
+        443
+      ],
+      "bbox_normalized": [
+        452,
+        434,
+        611,
+        453
+      ],
+      "confidence": 0.9773120880126953,
+      "children": [
+        {
+          "id": 5026,
+          "bbox_pixels": [
+            339,
+            427,
+            453,
+            441
+          ],
+          "bbox_normalized": [
+            17,
+            161,
+            1006,
+            916
+          ],
+          "bbox_section_relative": [
+            2,
+            3,
+            116,
+            17
+          ],
+          "confidence": 0.9638478755950928,
+          "ocr_text_paddle": "PROVED RECALL",
+          "ocr_text": "PROVED RECALL",
+          "font_style": "normal",
+          "decoration": "normal"
+        }
+      ],
+      "raw_text": "PROVED RECALL",
+      "ocr_text": "PROVED RECALL",
+      "children_ocr_texts": [
+        "PROVED RECALL"
+      ],
+      "entities": [],
+      "description": "Section title indicating the document contains data on proven recall."
+    },
+    {
+      "id": 23,
+      "label": "Text",
+      "bbox_pixels": [
+        237,
+        427,
+        268,
+        443
+      ],
+      "bbox_normalized": [
+        318,
+        437,
+        360,
+        453
+      ],
+      "confidence": 0.9966701865196228,
+      "children": [
+        {
+          "id": 5027,
+          "bbox_pixels": [
+            237,
+            427,
+            267,
+            435
+          ],
+          "bbox_normalized": [
+            0,
+            0,
+            990,
+            512
+          ],
+          "bbox_section_relative": [
+            0,
+            0,
+            30,
+            8
+          ],
+          "confidence": 0.34223124384880066,
+          "ocr_text_paddle": "PuE",
+          "ocr_text": "PM6",
+          "font_style": "normal",
+          "decoration": "normal"
+        }
+      ],
+      "raw_text": "PM6",
+      "ocr_text": "PM6",
+      "children_ocr_texts": [
+        "PM6"
+      ],
+      "entities": [],
+      "description": "A text section containing the label 'PM6'."
+    },
+    {
+      "id": 15,
+      "label": "Text",
+      "bbox_pixels": [
+        553,
+        427,
+        623,
+        439
+      ],
+      "bbox_normalized": [
+        743,
+        437,
+        837,
+        449
+      ],
+      "confidence": 0.9351201057434082,
+      "children": [],
+      "raw_text": "COHMENTS",
+      "ocr_text": "",
+      "children_ocr_texts": [],
+      "entities": [],
+      "description": "An empty text section."
+    },
+    {
+      "id": 20,
+      "label": "Text",
+      "bbox_pixels": [
+        348,
+        441,
+        394,
+        456
+      ],
+      "bbox_normalized": [
+        467,
+        451,
+        529,
+        466
+      ],
+      "confidence": 0.9925965070724487,
+      "children": [
+        {
+          "id": 5028,
+          "bbox_pixels": [
+            348,
+            441,
+            394,
+            448
+          ],
+          "bbox_normalized": [
+            0,
+            0,
+            1024,
+            477
+          ],
+          "bbox_section_relative": [
+            0,
+            0,
+            46,
+            7
+          ],
+          "confidence": 0.20851735770702362,
+          "ocr_text_paddle": "a0P",
+          "ocr_text": "a0P",
+          "font_style": "normal",
+          "decoration": "normal"
+        }
+      ],
+      "raw_text": "SCORE",
+      "ocr_text": "a0P",
+      "children_ocr_texts": [
+        "a0P"
+      ],
+      "entities": [],
+      "description": "A text section containing the label 'a0P'."
+    },
+    {
+      "id": 21,
+      "label": "Text",
+      "bbox_pixels": [
+        415,
+        441,
+        455,
+        456
+      ],
+      "bbox_normalized": [
+        557,
+        451,
+        611,
+        466
+      ],
+      "confidence": 0.995671808719635,
+      "children": [
+        {
+          "id": 5029,
+          "bbox_pixels": [
+            415,
+            441,
+            455,
+            448
+          ],
+          "bbox_normalized": [
+            0,
+            0,
+            1024,
+            477
+          ],
+          "bbox_section_relative": [
+            0,
+            0,
+            40,
+            7
+          ],
+          "confidence": 0.3944757878780365,
+          "ocr_text_paddle": "E",
+          "ocr_text": "E",
+          "font_style": "normal",
+          "decoration": "normal"
+        }
+      ],
+      "raw_text": "BASE",
+      "ocr_text": "E",
+      "children_ocr_texts": [
+        "E"
+      ],
+      "entities": [],
+      "description": "A text section containing the label 'E'."
+    },
+    {
+      "id": 19,
+      "label": "Text",
+      "bbox_pixels": [
+        195,
+        442,
+        242,
+        457
+      ],
+      "bbox_normalized": [
+        262,
+        452,
+        325,
+        467
+      ],
+      "confidence": 0.9935523271560669,
+      "children": [
+        {
+          "id": 5030,
+          "bbox_pixels": [
+            195,
+            442,
+            242,
+            449
+          ],
+          "bbox_normalized": [
+            0,
+            0,
+            1024,
+            477
+          ],
+          "bbox_section_relative": [
+            0,
+            0,
+            47,
+            7
+          ],
+          "confidence": 0.2646464705467224,
+          "ocr_text_paddle": "OODn",
+          "ocr_text": "OODn",
+          "font_style": "normal",
+          "decoration": "normal"
+        }
+      ],
+      "raw_text": "SCORE",
+      "ocr_text": "OODn",
+      "children_ocr_texts": [
+        "OODn"
+      ],
+      "entities": [],
+      "description": "A text section containing the label 'OODn'."
+    },
+    {
+      "id": 22,
+      "label": "Text",
+      "bbox_pixels": [
+        263,
+        442,
+        302,
+        457
+      ],
+      "bbox_normalized": [
+        353,
+        452,
+        405,
+        467
+      ],
+      "confidence": 0.9953071475028992,
+      "children": [
+        {
+          "id": 5031,
+          "bbox_pixels": [
+            263,
+            442,
+            302,
+            449
+          ],
+          "bbox_normalized": [
+            0,
+            0,
+            1024,
+            477
+          ],
+          "bbox_section_relative": [
+            0,
+            0,
+            39,
+            7
+          ],
+          "confidence": 0.9,
+          "ocr_text_paddle": "",
+          "ocr_text": "BASE",
+          "font_style": "normal",
+          "decoration": "normal"
+        }
+      ],
+      "raw_text": "BASE",
+      "ocr_text": "BASE",
+      "children_ocr_texts": [
+        "BASE"
+      ],
+      "entities": [],
+      "description": "The word 'BASE' is displayed in bold, underlined text."
+    },
+    {
+      "id": 26,
+      "label": "Text",
+      "bbox_pixels": [
+        363,
+        455,
+        379,
+        471
+      ],
+      "bbox_normalized": [
+        487,
+        465,
+        509,
+        482
+      ],
+      "confidence": 0.9995377063751221,
+      "children": [
+        {
+          "id": 5032,
+          "bbox_pixels": [
+            363,
+            455,
+            371,
+            463
+          ],
+          "bbox_normalized": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "bbox_section_relative": [
+            0,
+            0,
+            8,
+            8
+          ],
+          "confidence": 0.9,
+          "ocr_text_paddle": "",
+          "ocr_text": "%",
+          "font_style": "normal",
+          "decoration": "normal"
+        }
+      ],
+      "raw_text": "%",
+      "ocr_text": "%",
+      "children_ocr_texts": [
+        "%"
+      ],
+      "entities": [],
+      "description": "A single percent symbol (%) is displayed."
+    },
+    {
+      "id": 27,
+      "label": "Text",
+      "bbox_pixels": [
+        211,
+        456,
+        226,
+        472
+      ],
+      "bbox_normalized": [
+        283,
+        466,
+        303,
+        483
+      ],
+      "confidence": 0.9988811612129211,
+      "children": [
+        {
+          "id": 5033,
+          "bbox_pixels": [
+            211,
+            456,
+            219,
+            464
+          ],
+          "bbox_normalized": [
+            0,
+            0,
+            546,
+            512
+          ],
+          "bbox_section_relative": [
+            0,
+            0,
+            8,
+            8
+          ],
+          "confidence": 0.11879020929336548,
+          "ocr_text_paddle": "e",
+          "ocr_text": "%",
+          "font_style": "normal",
+          "decoration": "normal"
+        }
+      ],
+      "raw_text": "%",
+      "ocr_text": "%",
+      "children_ocr_texts": [
+        "%"
+      ],
+      "entities": [],
+      "description": "A single percent symbol (%) is displayed."
+    },
+    {
+      "id": 14,
+      "label": "Text",
+      "bbox_pixels": [
+        410,
+        496,
+        455,
+        515
+      ],
+      "bbox_normalized": [
+        550,
+        507,
+        611,
+        527
+      ],
+      "confidence": 0.9873038530349731,
+      "children": [
+        {
+          "id": 5034,
+          "bbox_pixels": [
+            411,
+            498,
+            454,
+            514
+          ],
+          "bbox_normalized": [
+            22,
+            107,
+            1001,
+            970
+          ],
+          "bbox_section_relative": [
+            1,
+            2,
+            44,
+            18
+          ],
+          "confidence": 0.962151050567627,
+          "ocr_text_paddle": "(222)",
+          "ocr_text": "(222)",
+          "font_style": "normal",
+          "decoration": "normal"
+        }
+      ],
+      "raw_text": "(222)",
+      "ocr_text": "(222)",
+      "children_ocr_texts": [
+        "(222)"
+      ],
+      "entities": [],
+      "description": "The text '(222)' is displayed, likely indicating a reference or identifier."
+    },
+    {
+      "id": 18,
+      "label": "Text",
+      "bbox_pixels": [
+        205,
+        498,
+        244,
+        517
+      ],
+      "bbox_normalized": [
+        275,
+        509,
+        327,
+        529
+      ],
+      "confidence": 0.989701509475708,
+      "children": [
+        {
+          "id": 5035,
+          "bbox_pixels": [
+            205,
+            498,
+            244,
+            509
+          ],
+          "bbox_normalized": [
+            0,
+            0,
+            1024,
+            592
+          ],
+          "bbox_section_relative": [
+            0,
+            0,
+            39,
+            11
+          ],
+          "confidence": 0.9017587900161743,
+          "ocr_text_paddle": "3.49",
+          "ocr_text": "3.48",
+          "font_style": "normal",
+          "decoration": "normal"
+        }
+      ],
+      "raw_text": "3.48",
+      "ocr_text": "3.48",
+      "children_ocr_texts": [
+        "3.48"
+      ],
+      "entities": [],
+      "description": "The number '3.48' is displayed, likely representing a value or measurement."
+    },
+    {
+      "id": 16,
+      "label": "Text",
+      "bbox_pixels": [
+        260,
+        498,
+        303,
+        517
+      ],
+      "bbox_normalized": [
+        349,
+        509,
+        407,
+        529
+      ],
+      "confidence": 0.9869661331176758,
+      "children": [
+        {
+          "id": 5036,
+          "bbox_pixels": [
+            260,
+            498,
+            303,
+            509
+          ],
+          "bbox_normalized": [
+            0,
+            0,
+            1024,
+            592
+          ],
+          "bbox_section_relative": [
+            0,
+            0,
+            43,
+            11
+          ],
+          "confidence": 0.9680402874946594,
+          "ocr_text_paddle": "(224)",
+          "ocr_text": "(224)",
+          "font_style": "normal",
+          "decoration": "normal"
+        }
+      ],
+      "raw_text": "(224)",
+      "ocr_text": "(224)",
+      "children_ocr_texts": [
+        "(224)"
+      ],
+      "entities": [],
+      "description": "A single number in parentheses, likely an identifier or reference number."
+    },
+    {
+      "id": 24,
+      "label": "Text",
+      "bbox_pixels": [
+        365,
+        498,
+        394,
+        515
+      ],
+      "bbox_normalized": [
+        490,
+        509,
+        529,
+        527
+      ],
+      "confidence": 0.9896835088729858,
+      "children": [
+        {
+          "id": 5037,
+          "bbox_pixels": [
+            366,
+            499,
+            386,
+            507
+          ],
+          "bbox_normalized": [
+            35,
+            60,
+            741,
+            542
+          ],
+          "bbox_section_relative": [
+            1,
+            1,
+            21,
+            9
+          ],
+          "confidence": 0.9807659387588501,
+          "ocr_text_paddle": "7",
+          "ocr_text": "78",
+          "font_style": "normal",
+          "decoration": "normal"
+        }
+      ],
+      "raw_text": "78",
+      "ocr_text": "78",
+      "children_ocr_texts": [
+        "78"
+      ],
+      "entities": [],
+      "description": "A two-digit number, possibly a page number, code, or identifier."
+    },
+    {
+      "id": 7,
+      "label": "Text",
+      "bbox_pixels": [
+        482,
+        499,
+        676,
+        514
+      ],
+      "bbox_normalized": [
+        647,
+        510,
+        908,
+        526
+      ],
+      "confidence": 0.9737831354141235,
+      "children": [
+        {
+          "id": 5038,
+          "bbox_pixels": [
+            482,
+            500,
+            675,
+            513
+          ],
+          "bbox_normalized": [
+            0,
+            68,
+            1018,
+            955
+          ],
+          "bbox_section_relative": [
+            0,
+            1,
+            193,
+            14
+          ],
+          "confidence": 0.9749628305435181,
+          "ocr_text_paddle": "*This was a combination",
+          "ocr_text": "*This was a combination",
+          "font_style": "normal",
+          "decoration": "normal"
+        }
+      ],
+      "raw_text": "*This was a combination",
+      "ocr_text": "*This was a combination",
+      "children_ocr_texts": [
+        "*This was a combination"
+      ],
+      "entities": [],
+      "description": "A partial sentence starting with an asterisk, likely indicating a note or footnote."
+    },
+    {
+      "id": 13,
+      "label": "Text",
+      "bbox_pixels": [
+        46,
+        501,
+        117,
+        516
+      ],
+      "bbox_normalized": [
+        61,
+        513,
+        157,
+        528
+      ],
+      "confidence": 0.9904139041900635,
+      "children": [
+        {
+          "id": 5039,
+          "bbox_pixels": [
+            46,
+            502,
+            117,
+            515
+          ],
+          "bbox_normalized": [
+            0,
+            68,
+            1024,
+            955
+          ],
+          "bbox_section_relative": [
+            0,
+            1,
+            71,
+            14
+          ],
+          "confidence": 0.9860683679580688,
+          "ocr_text_paddle": "OVERALL:",
+          "ocr_text": "OVERALL:",
+          "font_style": "normal",
+          "decoration": "normal"
+        }
+      ],
+      "raw_text": "OVERALL:",
+      "ocr_text": "OVERALL:",
+      "children_ocr_texts": [
+        "OVERALL:"
+      ],
+      "entities": [],
+      "description": "A section header indicating a summary or total value."
+    },
+    {
+      "id": 12,
+      "label": "Text",
+      "bbox_pixels": [
+        490,
+        514,
+        624,
+        528
+      ],
+      "bbox_normalized": [
+        658,
+        526,
+        838,
+        540
+      ],
+      "confidence": 0.9454980492591858,
+      "children": [
+        {
+          "id": 5040,
+          "bbox_pixels": [
+            490,
+            514,
+            624,
+            528
+          ],
+          "bbox_normalized": [
+            0,
+            0,
+            1024,
+            1024
+          ],
+          "bbox_section_relative": [
+            0,
+            0,
+            134,
+            14
+          ],
+          "confidence": 0.9371932148933411,
+          "ocr_text_paddle": "ad with RALEIGH.",
+          "ocr_text": "ad with RALEIGH.",
+          "font_style": "normal",
+          "decoration": "normal"
+        }
+      ],
+      "raw_text": "ad with RALEIGH.",
+      "ocr_text": "ad with RALEIGH.",
+      "children_ocr_texts": [
+        "ad with RALEIGH."
+      ],
+      "entities": [
+        {
+          "name": "RALEIGH",
+          "type": "Location"
+        }
+      ],
+      "description": "A phrase indicating an advertisement or reference to Raleigh, likely a city or location."
+    },
+    {
+      "id": 25,
+      "label": "Text",
+      "bbox_pixels": [
+        49,
+        559,
+        81,
+        567
+      ],
+      "bbox_normalized": [
+        65,
+        572,
+        108,
+        580
+      ],
+      "confidence": 0.6036284565925598,
+      "children": [],
+      "raw_text": "SEX-",
+      "ocr_text": "SEX:",
+      "children_ocr_texts": [],
+      "entities": [],
+      "description": "Section header indicating the category 'SEX' for data classification."
+    },
+    {
+      "id": 5,
+      "label": "Text",
+      "bbox_pixels": [
+        44,
+        567,
+        457,
+        604
+      ],
+      "bbox_normalized": [
+        59,
+        580,
+        614,
+        618
+      ],
+      "confidence": 0.3656480014324188,
+      "children": [
+        {
+          "id": 5041,
+          "bbox_pixels": [
+            45,
+            583,
+            103,
+            602
+          ],
+          "bbox_normalized": [
+            2,
+            442,
+            146,
+            968
+          ],
+          "bbox_section_relative": [
+            1,
+            16,
+            59,
+            35
+          ],
+          "confidence": 0.9862205386161804,
+          "ocr_text_paddle": "Female",
+          "ocr_text": "Female",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5042,
+          "bbox_pixels": [
+            262,
+            583,
+            302,
+            599
+          ],
+          "bbox_normalized": [
+            540,
+            442,
+            639,
+            885
+          ],
+          "bbox_section_relative": [
+            218,
+            16,
+            258,
+            32
+          ],
+          "confidence": 0.9362651705741882,
+          "ocr_text_paddle": "(120)",
+          "ocr_text": "(120)",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5043,
+          "bbox_pixels": [
+            207,
+            583,
+            238,
+            601
+          ],
+          "bbox_normalized": [
+            404,
+            442,
+            481,
+            940
+          ],
+          "bbox_section_relative": [
+            163,
+            16,
+            194,
+            34
+          ],
+          "confidence": 0.9993836283683777,
+          "ocr_text_paddle": "5.0",
+          "ocr_text": "5.0",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5044,
+          "bbox_pixels": [
+            413,
+            581,
+            453,
+            598
+          ],
+          "bbox_normalized": [
+            914,
+            387,
+            1014,
+            857
+          ],
+          "bbox_section_relative": [
+            369,
+            14,
+            409,
+            31
+          ],
+          "confidence": 0.9462299346923828,
+          "ocr_text_paddle": "(121)",
+          "ocr_text": "(121)",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5045,
+          "bbox_pixels": [
+            368,
+            581,
+            380,
+            598
+          ],
+          "bbox_normalized": [
+            803,
+            387,
+            833,
+            857
+          ],
+          "bbox_section_relative": [
+            324,
+            14,
+            336,
+            31
+          ],
+          "confidence": 0.9340420365333557,
+          "ocr_text_paddle": "7",
+          "ocr_text": "7",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5046,
+          "bbox_pixels": [
+            44,
+            569,
+            86,
+            588
+          ],
+          "bbox_normalized": [
+            0,
+            55,
+            104,
+            581
+          ],
+          "bbox_section_relative": [
+            0,
+            2,
+            42,
+            21
+          ],
+          "confidence": 0.8104935884475708,
+          "ocr_text_paddle": "Male",
+          "ocr_text": "Male",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5047,
+          "bbox_pixels": [
+            262,
+            570,
+            301,
+            583
+          ],
+          "bbox_normalized": [
+            540,
+            83,
+            637,
+            442
+          ],
+          "bbox_section_relative": [
+            218,
+            3,
+            257,
+            16
+          ],
+          "confidence": 0.880440354347229,
+          "ocr_text_paddle": "(104)",
+          "ocr_text": "(104)",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5048,
+          "bbox_pixels": [
+            413,
+            568,
+            452,
+            584
+          ],
+          "bbox_normalized": [
+            914,
+            27,
+            1011,
+            470
+          ],
+          "bbox_section_relative": [
+            369,
+            1,
+            408,
+            17
+          ],
+          "confidence": 0.9394895434379578,
+          "ocr_text_paddle": "(101)",
+          "ocr_text": "(101)",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5049,
+          "bbox_pixels": [
+            207,
+            568,
+            237,
+            584
+          ],
+          "bbox_normalized": [
+            404,
+            27,
+            478,
+            470
+          ],
+          "bbox_section_relative": [
+            163,
+            1,
+            193,
+            17
+          ],
+          "confidence": 0.9989264011383057,
+          "ocr_text_paddle": "1.9",
+          "ocr_text": "1.9",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5050,
+          "bbox_pixels": [
+            367,
+            568,
+            380,
+            584
+          ],
+          "bbox_normalized": [
+            800,
+            27,
+            833,
+            470
+          ],
+          "bbox_section_relative": [
+            323,
+            1,
+            336,
+            17
+          ],
+          "confidence": 0.9977793097496033,
+          "ocr_text_paddle": "7",
+          "ocr_text": "7",
+          "font_style": "normal",
+          "decoration": "normal"
+        }
+      ],
+      "raw_text": "",
+      "ocr_text": "Male\n(104)\n1.9\n7\n(101)\nFemale\n(120)\n5.0\n7\n(121)",
+      "children_ocr_texts": [],
+      "entities": [
+        {
+          "Sex": "Male",
+          "Value": "1.9",
+          "Count": "104"
+        },
+        {
+          "Sex": "Female",
+          "Value": "5.0",
+          "Count": "120"
+        },
+        {
+          "Sex": "Male",
+          "Value": "7",
+          "Count": "101"
+        },
+        {
+          "Sex": "Female",
+          "Value": "7",
+          "Count": "121"
+        }
+      ],
+      "description": "Data table showing statistics (value and count) for male and female categories."
+    },
+    {
+      "id": 3,
+      "label": "Text",
+      "bbox_pixels": [
+        43,
+        644,
+        305,
+        717
+      ],
+      "bbox_normalized": [
+        57,
+        659,
+        409,
+        734
+      ],
+      "confidence": 0.22406257688999176,
+      "children": [
+        {
+          "id": 5051,
+          "bbox_pixels": [
+            46,
+            700,
+            129,
+            715
+          ],
+          "bbox_normalized": [
+            11,
+            785,
+            336,
+            995
+          ],
+          "bbox_section_relative": [
+            3,
+            56,
+            86,
+            71
+          ],
+          "confidence": 0.9669075012207031,
+          "ocr_text_paddle": "45 & Over",
+          "ocr_text": "45 & Over",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5052,
+          "bbox_pixels": [
+            206,
+            694,
+            239,
+            714
+          ],
+          "bbox_normalized": [
+            637,
+            701,
+            766,
+            981
+          ],
+          "bbox_section_relative": [
+            163,
+            50,
+            196,
+            70
+          ],
+          "confidence": 0.9926550984382629,
+          "ocr_text_paddle": "4.0",
+          "ocr_text": "4.0",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5053,
+          "bbox_pixels": [
+            275,
+            695,
+            302,
+            712
+          ],
+          "bbox_normalized": [
+            906,
+            715,
+            1012,
+            953
+          ],
+          "bbox_section_relative": [
+            232,
+            51,
+            259,
+            68
+          ],
+          "confidence": 0.9089778065681458,
+          "ocr_text_paddle": "49)",
+          "ocr_text": "49)",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5054,
+          "bbox_pixels": [
+            47,
+            686,
+            93,
+            699
+          ],
+          "bbox_normalized": [
+            15,
+            589,
+            195,
+            771
+          ],
+          "bbox_section_relative": [
+            4,
+            42,
+            50,
+            55
+          ],
+          "confidence": 0.9968098402023315,
+          "ocr_text_paddle": "35-44",
+          "ocr_text": "35-44",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5055,
+          "bbox_pixels": [
+            208,
+            683,
+            238,
+            699
+          ],
+          "bbox_normalized": [
+            644,
+            547,
+            762,
+            771
+          ],
+          "bbox_section_relative": [
+            165,
+            39,
+            195,
+            55
+          ],
+          "confidence": 0.9942998290061951,
+          "ocr_text_paddle": "4.4",
+          "ocr_text": "4.4",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5056,
+          "bbox_pixels": [
+            275,
+            682,
+            303,
+            699
+          ],
+          "bbox_normalized": [
+            906,
+            533,
+            1016,
+            771
+          ],
+          "bbox_section_relative": [
+            232,
+            38,
+            260,
+            55
+          ],
+          "confidence": 0.9536628127098083,
+          "ocr_text_paddle": "46)",
+          "ocr_text": "46)",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5057,
+          "bbox_pixels": [
+            47,
+            671,
+            93,
+            684
+          ],
+          "bbox_normalized": [
+            15,
+            378,
+            195,
+            561
+          ],
+          "bbox_section_relative": [
+            4,
+            27,
+            50,
+            40
+          ],
+          "confidence": 0.9982969164848328,
+          "ocr_text_paddle": "25-34",
+          "ocr_text": "25-34",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5058,
+          "bbox_pixels": [
+            276,
+            669,
+            302,
+            683
+          ],
+          "bbox_normalized": [
+            910,
+            350,
+            1012,
+            547
+          ],
+          "bbox_section_relative": [
+            233,
+            25,
+            259,
+            39
+          ],
+          "confidence": 0.9018036723136902,
+          "ocr_text_paddle": "66)",
+          "ocr_text": "66)",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5059,
+          "bbox_pixels": [
+            208,
+            668,
+            238,
+            684
+          ],
+          "bbox_normalized": [
+            644,
+            336,
+            762,
+            561
+          ],
+          "bbox_section_relative": [
+            165,
+            24,
+            195,
+            40
+          ],
+          "confidence": 0.998441219329834,
+          "ocr_text_paddle": "3.0",
+          "ocr_text": "3.0",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5060,
+          "bbox_pixels": [
+            46,
+            658,
+            120,
+            670
+          ],
+          "bbox_normalized": [
+            11,
+            196,
+            300,
+            364
+          ],
+          "bbox_section_relative": [
+            3,
+            14,
+            77,
+            26
+          ],
+          "confidence": 0.9937617778778076,
+          "ocr_text_paddle": "Under 25",
+          "ocr_text": "Under 25",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5061,
+          "bbox_pixels": [
+            276,
+            654,
+            301,
+            668
+          ],
+          "bbox_normalized": [
+            910,
+            140,
+            1008,
+            336
+          ],
+          "bbox_section_relative": [
+            233,
+            10,
+            258,
+            24
+          ],
+          "confidence": 0.8526819348335266,
+          "ocr_text_paddle": "63)",
+          "ocr_text": "63)",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5062,
+          "bbox_pixels": [
+            209,
+            654,
+            235,
+            668
+          ],
+          "bbox_normalized": [
+            648,
+            140,
+            750,
+            336
+          ],
+          "bbox_section_relative": [
+            166,
+            10,
+            192,
+            24
+          ],
+          "confidence": 0.9990906119346619,
+          "ocr_text_paddle": "3.2",
+          "ocr_text": "3.2",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5063,
+          "bbox_pixels": [
+            45,
+            644,
+            84,
+            659
+          ],
+          "bbox_normalized": [
+            7,
+            0,
+            160,
+            210
+          ],
+          "bbox_section_relative": [
+            2,
+            0,
+            41,
+            15
+          ],
+          "confidence": 0.9749637842178345,
+          "ocr_text_paddle": "AGE:",
+          "ocr_text": "AGE:",
+          "font_style": "normal",
+          "decoration": "normal"
+        }
+      ],
+      "raw_text": "",
+      "ocr_text": "AGE:\nUnder 25\n(63)\n3.2\n25-34\n(66)\n3.0\n35-44\n(46)\n4.4\n45 & Over\n(49)\n4.0",
+      "children_ocr_texts": [],
+      "entities": [
+        {
+          "AgeGroup": "Under 25",
+          "Value": "3.2",
+          "Count": "63"
+        },
+        {
+          "AgeGroup": "25-34",
+          "Value": "3.0",
+          "Count": "66"
+        },
+        {
+          "AgeGroup": "35-44",
+          "Value": "4.4",
+          "Count": "46"
+        },
+        {
+          "AgeGroup": "45 & Over",
+          "Value": "4.0",
+          "Count": "49"
+        }
+      ],
+      "description": "Data table showing statistics (value and count) for different age groups."
+    },
+    {
+      "id": 4,
+      "label": "Text",
+      "bbox_pixels": [
+        42,
+        737,
+        467,
+        776
+      ],
+      "bbox_normalized": [
+        56,
+        754,
+        627,
+        794
+      ],
+      "confidence": 0.2659490704536438,
+      "children": [
+        {
+          "id": 5064,
+          "bbox_pixels": [
+            46,
+            757,
+            129,
+            772
+          ],
+          "bbox_normalized": [
+            9,
+            525,
+            209,
+            918
+          ],
+          "bbox_section_relative": [
+            4,
+            20,
+            87,
+            35
+          ],
+          "confidence": 0.9686866402626038,
+          "ocr_text_paddle": "35 & Over",
+          "ocr_text": "35 & Over",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5065,
+          "bbox_pixels": [
+            208,
+            753,
+            238,
+            771
+          ],
+          "bbox_normalized": [
+            399,
+            420,
+            472,
+            892
+          ],
+          "bbox_section_relative": [
+            166,
+            16,
+            196,
+            34
+          ],
+          "confidence": 0.9987785220146179,
+          "ocr_text_paddle": "4.2",
+          "ocr_text": "4.2",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5066,
+          "bbox_pixels": [
+            276,
+            752,
+            301,
+            770
+          ],
+          "bbox_normalized": [
+            563,
+            393,
+            624,
+            866
+          ],
+          "bbox_section_relative": [
+            234,
+            15,
+            259,
+            33
+          ],
+          "confidence": 0.9194267392158508,
+          "ocr_text_paddle": "95)",
+          "ocr_text": "95)",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5067,
+          "bbox_pixels": [
+            414,
+            750,
+            453,
+            767
+          ],
+          "bbox_normalized": [
+            896,
+            341,
+            990,
+            787
+          ],
+          "bbox_section_relative": [
+            372,
+            13,
+            411,
+            30
+          ],
+          "confidence": 0.9501999616622925,
+          "ocr_text_paddle": "(105)",
+          "ocr_text": "(105)",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5068,
+          "bbox_pixels": [
+            370,
+            753,
+            378,
+            766
+          ],
+          "bbox_normalized": [
+            790,
+            420,
+            809,
+            761
+          ],
+          "bbox_section_relative": [
+            328,
+            16,
+            336,
+            29
+          ],
+          "confidence": 0.9973465204238892,
+          "ocr_text_paddle": "9",
+          "ocr_text": "9",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5069,
+          "bbox_pixels": [
+            44,
+            739,
+            120,
+            759
+          ],
+          "bbox_normalized": [
+            4,
+            52,
+            187,
+            577
+          ],
+          "bbox_section_relative": [
+            2,
+            2,
+            78,
+            22
+          ],
+          "confidence": 0.9893286824226379,
+          "ocr_text_paddle": "Under 35",
+          "ocr_text": "Under 35",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5070,
+          "bbox_pixels": [
+            209,
+            741,
+            237,
+            757
+          ],
+          "bbox_normalized": [
+            402,
+            105,
+            469,
+            525
+          ],
+          "bbox_section_relative": [
+            167,
+            4,
+            195,
+            20
+          ],
+          "confidence": 0.9955137372016907,
+          "ocr_text_paddle": "3.1",
+          "ocr_text": "3.1",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5071,
+          "bbox_pixels": [
+            414,
+            739,
+            453,
+            753
+          ],
+          "bbox_normalized": [
+            896,
+            52,
+            990,
+            420
+          ],
+          "bbox_section_relative": [
+            372,
+            2,
+            411,
+            16
+          ],
+          "confidence": 0.9399756193161011,
+          "ocr_text_paddle": "(117)",
+          "ocr_text": "(117)",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5072,
+          "bbox_pixels": [
+            370,
+            739,
+            379,
+            752
+          ],
+          "bbox_normalized": [
+            790,
+            52,
+            811,
+            393
+          ],
+          "bbox_section_relative": [
+            328,
+            2,
+            337,
+            15
+          ],
+          "confidence": 0.9993780851364136,
+          "ocr_text_paddle": "5",
+          "ocr_text": "5",
+          "font_style": "normal",
+          "decoration": "normal"
+        }
+      ],
+      "raw_text": "",
+      "ocr_text": "Under 35\n(117)\n3.1\n5\n(105)\n9\n35 & Over\n(95)\n4.2",
+      "children_ocr_texts": [],
+      "entities": [
+        {
+          "AgeGroup": "Under 35",
+          "Value": "3.1",
+          "Count": "117"
+        },
+        {
+          "AgeGroup": "Under 35",
+          "Value": "5",
+          "Count": "105"
+        },
+        {
+          "AgeGroup": "35 & Over",
+          "Value": "4.2",
+          "Count": "95"
+        },
+        {
+          "AgeGroup": "35 & Over",
+          "Value": "9",
+          "Count": "105"
+        }
+      ],
+      "description": "Data table showing statistics (value and count) for two age group categories."
+    },
+    {
+      "id": 6,
+      "label": "Text",
+      "bbox_pixels": [
+        45,
+        812,
+        206,
+        857
+      ],
+      "bbox_normalized": [
+        60,
+        831,
+        276,
+        877
+      ],
+      "confidence": 0.37551119923591614,
+      "children": [
+        {
+          "id": 5073,
+          "bbox_pixels": [
+            47,
+            842,
+            78,
+            856
+          ],
+          "bbox_normalized": [
+            12,
+            682,
+            209,
+            1001
+          ],
+          "bbox_section_relative": [
+            2,
+            30,
+            33,
+            44
+          ],
+          "confidence": 0.7728714346885681,
+          "ocr_text_paddle": "A11",
+          "ocr_text": "A11",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5074,
+          "bbox_pixels": [
+            85,
+            827,
+            197,
+            842
+          ],
+          "bbox_normalized": [
+            254,
+            341,
+            966,
+            682
+          ],
+          "bbox_section_relative": [
+            40,
+            15,
+            152,
+            30
+          ],
+          "confidence": 0.9573283195495605,
+          "ocr_text_paddle": "Brand Smoker",
+          "ocr_text": "Brand Smoker",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5075,
+          "bbox_pixels": [
+            47,
+            827,
+            84,
+            842
+          ],
+          "bbox_normalized": [
+            12,
+            341,
+            248,
+            682
+          ],
+          "bbox_section_relative": [
+            2,
+            15,
+            39,
+            30
+          ],
+          "confidence": 0.995587944984436,
+          "ocr_text_paddle": "Test",
+          "ocr_text": "Test",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5076,
+          "bbox_pixels": [
+            47,
+            813,
+            160,
+            827
+          ],
+          "bbox_normalized": [
+            12,
+            22,
+            731,
+            341
+          ],
+          "bbox_section_relative": [
+            2,
+            1,
+            115,
+            15
+          ],
+          "confidence": 0.9691863656044006,
+          "ocr_text_paddle": "BRAND SMOKED:",
+          "ocr_text": "BRAND SMOKED:",
+          "font_style": "normal",
+          "decoration": "normal"
+        }
+      ],
+      "raw_text": "",
+      "ocr_text": "BRAND SMOKED:\nTest Brand Smokers\nAll Other Smokers",
+      "children_ocr_texts": [],
+      "entities": [
+        {
+          "Category": "Test Brand Smokers"
+        },
+        {
+          "Category": "All Other Smokers"
+        }
+      ],
+      "description": "Section header and category labels for brand smoking data."
+    },
+    {
+      "id": 29,
+      "label": "Text",
+      "bbox_pixels": [
+        368,
+        824,
+        381,
+        839
+      ],
+      "bbox_normalized": [
+        494,
+        843,
+        512,
+        859
+      ],
+      "confidence": 0.9985987544059753,
+      "children": [
+        {
+          "id": 5077,
+          "bbox_pixels": [
+            368,
+            824,
+            374,
+            831
+          ],
+          "bbox_normalized": [
+            0,
+            0,
+            472,
+            477
+          ],
+          "bbox_section_relative": [
+            0,
+            0,
+            6,
+            7
+          ],
+          "confidence": 0.1852535903453827,
+          "ocr_text_paddle": "。",
+          "ocr_text": "。",
+          "font_style": "normal",
+          "decoration": "normal"
+        }
+      ],
+      "raw_text": "6",
+      "ocr_text": "。",
+      "children_ocr_texts": [
+        "。"
+      ],
+      "entities": [],
+      "description": "A single period character."
+    },
+    {
+      "id": 28,
+      "label": "Text",
+      "bbox_pixels": [
+        429,
+        826,
+        447,
+        838
+      ],
+      "bbox_normalized": [
+        576,
+        845,
+        600,
+        858
+      ],
+      "confidence": 0.9996891021728516,
+      "children": [
+        {
+          "id": 5078,
+          "bbox_pixels": [
+            429,
+            826,
+            440,
+            831
+          ],
+          "bbox_normalized": [
+            0,
+            0,
+            625,
+            426
+          ],
+          "bbox_section_relative": [
+            0,
+            0,
+            11,
+            5
+          ],
+          "confidence": 0.8169936537742615,
+          "ocr_text_paddle": "1",
+          "ocr_text": "1",
+          "font_style": "normal",
+          "decoration": "normal"
+        }
+      ],
+      "raw_text": "17",
+      "ocr_text": "1",
+      "children_ocr_texts": [
+        "1"
+      ],
+      "entities": [],
+      "description": "The digit '1'."
+    },
+    {
+      "id": 17,
+      "label": "Text",
+      "bbox_pixels": [
+        415,
+        836,
+        456,
+        855
+      ],
+      "bbox_normalized": [
+        557,
+        856,
+        612,
+        875
+      ],
+      "confidence": 0.9845567941665649,
+      "children": [
+        {
+          "id": 5079,
+          "bbox_pixels": [
+            415,
+            837,
+            456,
+            848
+          ],
+          "bbox_normalized": [
+            0,
+            53,
+            1024,
+            646
+          ],
+          "bbox_section_relative": [
+            0,
+            1,
+            41,
+            12
+          ],
+          "confidence": 0.89409339427948,
+          "ocr_text_paddle": "(205)",
+          "ocr_text": "(205)",
+          "font_style": "normal",
+          "decoration": "normal"
+        }
+      ],
+      "raw_text": "(205)",
+      "ocr_text": "(205)",
+      "children_ocr_texts": [
+        "(205)"
+      ],
+      "entities": [],
+      "description": "The number 205 enclosed in parentheses."
+    },
+    {
+      "id": 30,
+      "label": "Text",
+      "bbox_pixels": [
+        369,
+        839,
+        381,
+        853
+      ],
+      "bbox_normalized": [
+        495,
+        859,
+        512,
+        873
+      ],
+      "confidence": 0.9986910223960876,
+      "children": [
+        {
+          "id": 5080,
+          "bbox_pixels": [
+            369,
+            839,
+            374,
+            845
+          ],
+          "bbox_normalized": [
+            0,
+            0,
+            426,
+            438
+          ],
+          "bbox_section_relative": [
+            0,
+            0,
+            5,
+            6
+          ],
+          "confidence": 0.06121043488383293,
+          "ocr_text_paddle": "二",
+          "ocr_text": "二",
+          "font_style": "normal",
+          "decoration": "normal"
+        }
+      ],
+      "raw_text": "7",
+      "ocr_text": "二",
+      "children_ocr_texts": [
+        "二"
+      ],
+      "entities": [],
+      "description": "The Chinese character '二' (meaning 'two')."
+    },
+    {
+      "id": 8,
+      "label": "Text",
+      "bbox_pixels": [
+        487,
+        883,
+        603,
+        906
+      ],
+      "bbox_normalized": [
+        654,
+        904,
+        810,
+        927
+      ],
+      "confidence": 0.3478931486606598,
+      "children": [
+        {
+          "id": 5081,
+          "bbox_pixels": [
+            487,
+            883,
+            602,
+            906
+          ],
+          "bbox_normalized": [
+            0,
+            0,
+            1015,
+            1024
+          ],
+          "bbox_section_relative": [
+            0,
+            0,
+            115,
+            23
+          ],
+          "confidence": 0.9995499849319458,
+          "ocr_text_paddle": "465508326",
+          "ocr_text": "465508326",
+          "font_style": "normal",
+          "decoration": "normal"
+        }
+      ],
+      "raw_text": "",
+      "ocr_text": "465508326",
+      "children_ocr_texts": [
+        "465508326"
+      ],
+      "entities": [],
+      "description": "The numeric string '465508326'."
+    }
+  ],
+  "processing_timestamp": "2025-12-23T05:37:58.821827",
+  "summary": "# Document Summary: Newspaper Audience Study for \"Kaleidoscope--Gone with the Wind\" Ad Campaign\n\nThis document is a detailed audience study report for a newspaper advertising campaign, specifically for the brand **BELAIR**. The campaign, titled **\"KALEIDOSCOPE--GONE WITH THE WIND\"**, was part of Project # **72-31** and was distributed across four major U.S. newspapers on **April 23, 1972**. The total sample size for the study was **285** respondents.\n\n## Campaign Overview\n\n- **Brand**: BELAIR\n- **Ad Title**: \"KALEIDOSCOPE--GONE WITH THE WIND\"*\n- **Ad Code**: R/BSS-71-19\n- **Ad Type**: PARADE, 1 Page, 4-Color\n- **Project ID**: 72-31\n- **Total Sample Size**: 285\n- **Publication Date**: April 23, 1972\n- **Newspapers Used**:\n  - *Pittsburgh Press*\n  - *San Diego Union*\n  - *Dayton News*\n  - *Birmingham News*\n\nA critical note in the report states: *“This was a combination ad with RALEIGH.”* This suggests the ad may have been a joint or co-branded campaign, possibly with a brand or entity associated with Raleigh, North Carolina.\n\n## Audience Metrics: PM6 and Proven Recall\n\nThe report provides two key performance metrics: **PM6** (likely a measure of ad exposure or awareness) and **Proven Recall** (a measure of how well the audience remembers the ad).\n\n### Overall Performance\n- **PM6 Score**: 3.48% (based on 224 respondents)\n- **Proven Recall Score**: 7% (based on 222 respondents)\n\n### By Demographic: Sex\n- **Male**:\n  - PM6: 1.9% (104 respondents)\n  - Proven Recall: 7% (101 respondents)\n- **Female**:\n  - PM6: 5.0% (120 respondents)\n  - Proven Recall: 7% (121 respondents)\n\n### By Demographic: Age\n- **Under 25**: PM6 = 3.2% (63 respondents)\n- **25-34**: PM6 = 3.0% (66 respondents)\n- **35-44**: PM6 = 4.4% (46 respondents)\n- **45 & Over**: PM6 = 4.0% (49 respondents)\n\nThe data also shows a breakdown of the same metrics into two age groupings:\n- **Under 35**:\n  - PM6: 3.1% (117 respondents)\n  - Proven Recall: 5% (105 respondents)\n- **35 & Over**:\n  - PM6: 4.2% (95 respondents)\n  - Proven Recall: 9% (105 respondents)\n\nThis suggests that older audiences (35+) had a higher proven recall rate (9%) compared to younger audiences (5%), and also a higher PM6 score (4.2% vs. 3.1%).\n\n### By Demographic: Brand Smoker Status\n- **Test Brand Smokers**:\n  - Proven Recall: 6% (17 respondents)\n- **All Other Smokers**:\n  - Proven Recall: 7% (205 respondents)\n\nThis indicates that the ad was more effective in recalling among non-test brand smokers, who made up the majority of the sample (205 out of 222).\n\n## Document Structure and Layout\n\nThe document is structured as a tabular report with clear section headers. The top of the page features the main title, “NEWSPAPER SCORES” and “AUDIENCE STUDIES.” The data is presented in a series of tables, with categories such as “OVERALL,” “SEX,” “AGE,” and “BRAND SMOKED.” Each category includes sub-headers for “PM6” and “PROVED RECALL,” with columns for the score and the number of respondents in the base group. The report is clean and well-organized, with a clear focus on performance metrics and demographic breakdowns. A unique identifier, “465508326,” is present at the bottom right, likely for internal tracking or record-keeping.\n\n## Key Takeaways\n\n- The ad campaign was a multi-newspaper, multi-city effort, with a focus on brand awareness (PM6) and recall (Proven Recall).\n- The ad was more effective in recalling among female and older audiences (35+), and among non-test brand smokers.\n- The “combination ad with RALEIGH” note suggests a possible cross-promotion or co-branding effort, which may have contributed to the ad’s performance.\n- The data is presented in a clear, tabular format, making it easy to compare performance across different demographic groups.\n\nThis report is a valuable resource for understanding the audience response to the “Kaleidoscope--Gone with the Wind” ad campaign and for making data-driven decisions for future advertising efforts."
+}

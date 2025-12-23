@@ -1,0 +1,695 @@
+{
+  "total_sections": 30,
+  "sections": [
+    {
+      "id": 9,
+      "label": "Text",
+      "bbox_pixels": [
+        279,
+        81,
+        420,
+        98
+      ],
+      "bbox_normalized": [
+        374,
+        82,
+        564,
+        100
+      ],
+      "confidence": 0.9772719144821167,
+      "children": [],
+      "raw_text": "NEWSPAPER SCORES",
+      "ocr_text": "",
+      "children_ocr_texts": [],
+      "entities": [],
+      "description": ""
+    },
+    {
+      "id": 11,
+      "label": "Text",
+      "bbox_pixels": [
+        281,
+        111,
+        419,
+        126
+      ],
+      "bbox_normalized": [
+        377,
+        113,
+        563,
+        129
+      ],
+      "confidence": 0.9871936440467834,
+      "children": [],
+      "raw_text": "AUDIENCE STUDIES",
+      "ocr_text": "",
+      "children_ocr_texts": [],
+      "entities": [],
+      "description": ""
+    },
+    {
+      "id": 1,
+      "label": "Text",
+      "bbox_pixels": [
+        41,
+        175,
+        704,
+        281
+      ],
+      "bbox_normalized": [
+        55,
+        179,
+        946,
+        287
+      ],
+      "confidence": 0.6580258011817932,
+      "children": [],
+      "raw_text": "",
+      "ocr_text": "",
+      "children_ocr_texts": [],
+      "entities": [],
+      "description": ""
+    },
+    {
+      "id": 2,
+      "label": "Text",
+      "bbox_pixels": [
+        42,
+        291,
+        704,
+        394
+      ],
+      "bbox_normalized": [
+        56,
+        297,
+        946,
+        403
+      ],
+      "confidence": 0.6604788303375244,
+      "children": [],
+      "raw_text": "",
+      "ocr_text": "",
+      "children_ocr_texts": [],
+      "entities": [],
+      "description": ""
+    },
+    {
+      "id": 10,
+      "label": "Text",
+      "bbox_pixels": [
+        337,
+        424,
+        455,
+        443
+      ],
+      "bbox_normalized": [
+        452,
+        434,
+        611,
+        453
+      ],
+      "confidence": 0.9773120880126953,
+      "children": [],
+      "raw_text": "PROVED RECALL",
+      "ocr_text": "",
+      "children_ocr_texts": [],
+      "entities": [],
+      "description": ""
+    },
+    {
+      "id": 23,
+      "label": "Text",
+      "bbox_pixels": [
+        237,
+        427,
+        268,
+        443
+      ],
+      "bbox_normalized": [
+        318,
+        437,
+        360,
+        453
+      ],
+      "confidence": 0.9966701865196228,
+      "children": [],
+      "raw_text": "PM6",
+      "ocr_text": "",
+      "children_ocr_texts": [],
+      "entities": [],
+      "description": ""
+    },
+    {
+      "id": 15,
+      "label": "Text",
+      "bbox_pixels": [
+        553,
+        427,
+        623,
+        439
+      ],
+      "bbox_normalized": [
+        743,
+        437,
+        837,
+        449
+      ],
+      "confidence": 0.9351201057434082,
+      "children": [],
+      "raw_text": "COHMENTS",
+      "ocr_text": "",
+      "children_ocr_texts": [],
+      "entities": [],
+      "description": ""
+    },
+    {
+      "id": 20,
+      "label": "Text",
+      "bbox_pixels": [
+        348,
+        441,
+        394,
+        456
+      ],
+      "bbox_normalized": [
+        467,
+        451,
+        529,
+        466
+      ],
+      "confidence": 0.9925965070724487,
+      "children": [],
+      "raw_text": "SCORE",
+      "ocr_text": "",
+      "children_ocr_texts": [],
+      "entities": [],
+      "description": ""
+    },
+    {
+      "id": 21,
+      "label": "Text",
+      "bbox_pixels": [
+        415,
+        441,
+        455,
+        456
+      ],
+      "bbox_normalized": [
+        557,
+        451,
+        611,
+        466
+      ],
+      "confidence": 0.995671808719635,
+      "children": [],
+      "raw_text": "BASE",
+      "ocr_text": "",
+      "children_ocr_texts": [],
+      "entities": [],
+      "description": ""
+    },
+    {
+      "id": 19,
+      "label": "Text",
+      "bbox_pixels": [
+        195,
+        442,
+        242,
+        457
+      ],
+      "bbox_normalized": [
+        262,
+        452,
+        325,
+        467
+      ],
+      "confidence": 0.9935523271560669,
+      "children": [],
+      "raw_text": "SCORE",
+      "ocr_text": "",
+      "children_ocr_texts": [],
+      "entities": [],
+      "description": ""
+    },
+    {
+      "id": 22,
+      "label": "Text",
+      "bbox_pixels": [
+        263,
+        442,
+        302,
+        457
+      ],
+      "bbox_normalized": [
+        353,
+        452,
+        405,
+        467
+      ],
+      "confidence": 0.9953071475028992,
+      "children": [],
+      "raw_text": "BASE",
+      "ocr_text": "",
+      "children_ocr_texts": [],
+      "entities": [],
+      "description": ""
+    },
+    {
+      "id": 26,
+      "label": "Text",
+      "bbox_pixels": [
+        363,
+        455,
+        379,
+        471
+      ],
+      "bbox_normalized": [
+        487,
+        465,
+        509,
+        482
+      ],
+      "confidence": 0.9995377063751221,
+      "children": [],
+      "raw_text": "%",
+      "ocr_text": "",
+      "children_ocr_texts": [],
+      "entities": [],
+      "description": ""
+    },
+    {
+      "id": 27,
+      "label": "Text",
+      "bbox_pixels": [
+        211,
+        456,
+        226,
+        472
+      ],
+      "bbox_normalized": [
+        283,
+        466,
+        303,
+        483
+      ],
+      "confidence": 0.9988811612129211,
+      "children": [],
+      "raw_text": "%",
+      "ocr_text": "",
+      "children_ocr_texts": [],
+      "entities": [],
+      "description": ""
+    },
+    {
+      "id": 14,
+      "label": "Text",
+      "bbox_pixels": [
+        410,
+        496,
+        455,
+        515
+      ],
+      "bbox_normalized": [
+        550,
+        507,
+        611,
+        527
+      ],
+      "confidence": 0.9873038530349731,
+      "children": [],
+      "raw_text": "(222)",
+      "ocr_text": "",
+      "children_ocr_texts": [],
+      "entities": [],
+      "description": ""
+    },
+    {
+      "id": 18,
+      "label": "Text",
+      "bbox_pixels": [
+        205,
+        498,
+        244,
+        517
+      ],
+      "bbox_normalized": [
+        275,
+        509,
+        327,
+        529
+      ],
+      "confidence": 0.989701509475708,
+      "children": [],
+      "raw_text": "3.48",
+      "ocr_text": "",
+      "children_ocr_texts": [],
+      "entities": [],
+      "description": ""
+    },
+    {
+      "id": 16,
+      "label": "Text",
+      "bbox_pixels": [
+        260,
+        498,
+        303,
+        517
+      ],
+      "bbox_normalized": [
+        349,
+        509,
+        407,
+        529
+      ],
+      "confidence": 0.9869661331176758,
+      "children": [],
+      "raw_text": "(224)",
+      "ocr_text": "",
+      "children_ocr_texts": [],
+      "entities": [],
+      "description": ""
+    },
+    {
+      "id": 24,
+      "label": "Text",
+      "bbox_pixels": [
+        365,
+        498,
+        394,
+        515
+      ],
+      "bbox_normalized": [
+        490,
+        509,
+        529,
+        527
+      ],
+      "confidence": 0.9896835088729858,
+      "children": [],
+      "raw_text": "78",
+      "ocr_text": "",
+      "children_ocr_texts": [],
+      "entities": [],
+      "description": ""
+    },
+    {
+      "id": 7,
+      "label": "Text",
+      "bbox_pixels": [
+        482,
+        499,
+        676,
+        514
+      ],
+      "bbox_normalized": [
+        647,
+        510,
+        908,
+        526
+      ],
+      "confidence": 0.9737831354141235,
+      "children": [],
+      "raw_text": "*This was a combination",
+      "ocr_text": "",
+      "children_ocr_texts": [],
+      "entities": [],
+      "description": ""
+    },
+    {
+      "id": 13,
+      "label": "Text",
+      "bbox_pixels": [
+        46,
+        501,
+        117,
+        516
+      ],
+      "bbox_normalized": [
+        61,
+        513,
+        157,
+        528
+      ],
+      "confidence": 0.9904139041900635,
+      "children": [],
+      "raw_text": "OVERALL:",
+      "ocr_text": "",
+      "children_ocr_texts": [],
+      "entities": [],
+      "description": ""
+    },
+    {
+      "id": 12,
+      "label": "Text",
+      "bbox_pixels": [
+        490,
+        514,
+        624,
+        528
+      ],
+      "bbox_normalized": [
+        658,
+        526,
+        838,
+        540
+      ],
+      "confidence": 0.9454980492591858,
+      "children": [],
+      "raw_text": "ad with RALEIGH.",
+      "ocr_text": "",
+      "children_ocr_texts": [],
+      "entities": [],
+      "description": ""
+    },
+    {
+      "id": 25,
+      "label": "Text",
+      "bbox_pixels": [
+        49,
+        559,
+        81,
+        567
+      ],
+      "bbox_normalized": [
+        65,
+        572,
+        108,
+        580
+      ],
+      "confidence": 0.6036284565925598,
+      "children": [],
+      "raw_text": "SEX-",
+      "ocr_text": "",
+      "children_ocr_texts": [],
+      "entities": [],
+      "description": ""
+    },
+    {
+      "id": 5,
+      "label": "Text",
+      "bbox_pixels": [
+        44,
+        567,
+        457,
+        604
+      ],
+      "bbox_normalized": [
+        59,
+        580,
+        614,
+        618
+      ],
+      "confidence": 0.3656480014324188,
+      "children": [],
+      "raw_text": "",
+      "ocr_text": "",
+      "children_ocr_texts": [],
+      "entities": [],
+      "description": ""
+    },
+    {
+      "id": 3,
+      "label": "Text",
+      "bbox_pixels": [
+        43,
+        644,
+        305,
+        717
+      ],
+      "bbox_normalized": [
+        57,
+        659,
+        409,
+        734
+      ],
+      "confidence": 0.22406257688999176,
+      "children": [],
+      "raw_text": "",
+      "ocr_text": "",
+      "children_ocr_texts": [],
+      "entities": [],
+      "description": ""
+    },
+    {
+      "id": 4,
+      "label": "Text",
+      "bbox_pixels": [
+        42,
+        737,
+        467,
+        776
+      ],
+      "bbox_normalized": [
+        56,
+        754,
+        627,
+        794
+      ],
+      "confidence": 0.2659490704536438,
+      "children": [],
+      "raw_text": "",
+      "ocr_text": "",
+      "children_ocr_texts": [],
+      "entities": [],
+      "description": ""
+    },
+    {
+      "id": 6,
+      "label": "Text",
+      "bbox_pixels": [
+        45,
+        812,
+        206,
+        857
+      ],
+      "bbox_normalized": [
+        60,
+        831,
+        276,
+        877
+      ],
+      "confidence": 0.37551119923591614,
+      "children": [],
+      "raw_text": "",
+      "ocr_text": "",
+      "children_ocr_texts": [],
+      "entities": [],
+      "description": ""
+    },
+    {
+      "id": 29,
+      "label": "Text",
+      "bbox_pixels": [
+        368,
+        824,
+        381,
+        839
+      ],
+      "bbox_normalized": [
+        494,
+        843,
+        512,
+        859
+      ],
+      "confidence": 0.9985987544059753,
+      "children": [],
+      "raw_text": "6",
+      "ocr_text": "",
+      "children_ocr_texts": [],
+      "entities": [],
+      "description": ""
+    },
+    {
+      "id": 28,
+      "label": "Text",
+      "bbox_pixels": [
+        429,
+        826,
+        447,
+        838
+      ],
+      "bbox_normalized": [
+        576,
+        845,
+        600,
+        858
+      ],
+      "confidence": 0.9996891021728516,
+      "children": [],
+      "raw_text": "17",
+      "ocr_text": "",
+      "children_ocr_texts": [],
+      "entities": [],
+      "description": ""
+    },
+    {
+      "id": 17,
+      "label": "Text",
+      "bbox_pixels": [
+        415,
+        836,
+        456,
+        855
+      ],
+      "bbox_normalized": [
+        557,
+        856,
+        612,
+        875
+      ],
+      "confidence": 0.9845567941665649,
+      "children": [],
+      "raw_text": "(205)",
+      "ocr_text": "",
+      "children_ocr_texts": [],
+      "entities": [],
+      "description": ""
+    },
+    {
+      "id": 30,
+      "label": "Text",
+      "bbox_pixels": [
+        369,
+        839,
+        381,
+        853
+      ],
+      "bbox_normalized": [
+        495,
+        859,
+        512,
+        873
+      ],
+      "confidence": 0.9986910223960876,
+      "children": [],
+      "raw_text": "7",
+      "ocr_text": "",
+      "children_ocr_texts": [],
+      "entities": [],
+      "description": ""
+    },
+    {
+      "id": 8,
+      "label": "Text",
+      "bbox_pixels": [
+        487,
+        883,
+        603,
+        906
+      ],
+      "bbox_normalized": [
+        654,
+        904,
+        810,
+        927
+      ],
+      "confidence": 0.3478931486606598,
+      "children": [],
+      "raw_text": "",
+      "ocr_text": "",
+      "children_ocr_texts": [],
+      "entities": [],
+      "description": ""
+    }
+  ]
+}

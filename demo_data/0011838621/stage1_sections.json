@@ -1,0 +1,189 @@
+{
+  "total_sections": 8,
+  "sections": [
+    {
+      "id": 6,
+      "label": "Page-Header",
+      "bbox_pixels": [
+        199,
+        86,
+        408,
+        116
+      ],
+      "bbox_normalized": [
+        267,
+        88,
+        548,
+        118
+      ],
+      "confidence": 0.516128659248352,
+      "children": [],
+      "raw_text": "",
+      "ocr_text": "",
+      "children_ocr_texts": [],
+      "entities": [],
+      "description": ""
+    },
+    {
+      "id": 4,
+      "label": "Text",
+      "bbox_pixels": [
+        53,
+        125,
+        556,
+        196
+      ],
+      "bbox_normalized": [
+        71,
+        128,
+        747,
+        200
+      ],
+      "confidence": 0.7641997337341309,
+      "children": [],
+      "raw_text": "",
+      "ocr_text": "",
+      "children_ocr_texts": [],
+      "entities": [],
+      "description": ""
+    },
+    {
+      "id": 3,
+      "label": "Text",
+      "bbox_pixels": [
+        55,
+        199,
+        503,
+        284
+      ],
+      "bbox_normalized": [
+        73,
+        203,
+        675,
+        290
+      ],
+      "confidence": 0.5101897716522217,
+      "children": [],
+      "raw_text": "",
+      "ocr_text": "",
+      "children_ocr_texts": [],
+      "entities": [],
+      "description": ""
+    },
+    {
+      "id": 5,
+      "label": "Text",
+      "bbox_pixels": [
+        55,
+        295,
+        537,
+        348
+      ],
+      "bbox_normalized": [
+        73,
+        302,
+        721,
+        356
+      ],
+      "confidence": 0.6952869296073914,
+      "children": [],
+      "raw_text": "",
+      "ocr_text": "",
+      "children_ocr_texts": [],
+      "entities": [],
+      "description": ""
+    },
+    {
+      "id": 1,
+      "label": "Text",
+      "bbox_pixels": [
+        57,
+        360,
+        558,
+        638
+      ],
+      "bbox_normalized": [
+        76,
+        368,
+        749,
+        653
+      ],
+      "confidence": 0.37824755907058716,
+      "children": [],
+      "raw_text": "",
+      "ocr_text": "",
+      "children_ocr_texts": [],
+      "entities": [],
+      "description": ""
+    },
+    {
+      "id": 2,
+      "label": "Figure",
+      "bbox_pixels": [
+        61,
+        652,
+        561,
+        795
+      ],
+      "bbox_normalized": [
+        81,
+        667,
+        753,
+        814
+      ],
+      "confidence": 0.8662382364273071,
+      "children": [],
+      "raw_text": "",
+      "ocr_text": "",
+      "children_ocr_texts": [],
+      "entities": [],
+      "description": ""
+    },
+    {
+      "id": 7,
+      "label": "Text",
+      "bbox_pixels": [
+        507,
+        813,
+        612,
+        834
+      ],
+      "bbox_normalized": [
+        681,
+        832,
+        822,
+        854
+      ],
+      "confidence": 0.6465639472007751,
+      "children": [],
+      "raw_text": "",
+      "ocr_text": "",
+      "children_ocr_texts": [],
+      "entities": [],
+      "description": ""
+    },
+    {
+      "id": 8,
+      "label": "Text",
+      "bbox_pixels": [
+        13,
+        915,
+        27,
+        923
+      ],
+      "bbox_normalized": [
+        17,
+        936,
+        36,
+        945
+      ],
+      "confidence": 0.4521010220050812,
+      "children": [],
+      "raw_text": "",
+      "ocr_text": "",
+      "children_ocr_texts": [],
+      "entities": [],
+      "description": ""
+    }
+  ]
+}

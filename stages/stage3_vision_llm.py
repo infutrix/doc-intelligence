@@ -50,11 +50,11 @@ class VisionOCRStage:
         
         logger.info(f"Loading Qwen3-VL model: {self.model_name}")
         
-        # Load model with flash attention for efficiency
+        # Load model
         self.model = Qwen3VLForConditionalGeneration.from_pretrained(
             self.model_name,
             torch_dtype=torch.bfloat16,
-            attn_implementation="flash_attention_2",
+            # attn_implementation="flash_attention_2",  # Requires flash-attn package
             device_map="auto"
         )
         
@@ -219,7 +219,7 @@ Return ONLY the JSON array, no additional text or explanation."""
         # Build prompt
         prompt = self._build_batch_prompt(batch_input)
         
-        # Call Qwen2-VL
+        # Call Qwen3-VL
         response = self._call_qwen(crops, prompt)
         
         # Parse response
@@ -264,7 +264,7 @@ Return ONLY the JSON array, no additional text or explanation."""
             image_path: Path to the image
             sections: List of layout sections to process
         """
-        logger.info(f"[Stage 3] Running Qwen2-VL OCR on {len(sections)} sections (batch_size={self.batch_size})")
+        logger.info(f"[Stage 3] Running Qwen3-VL OCR on {len(sections)} sections (batch_size={self.batch_size})")
         
         image = Image.open(image_path)
         
@@ -336,7 +336,7 @@ Provide a comprehensive summary in Markdown format. Do not include JSON, just wr
         image = Image.open(image_path)
         
         try:
-            # Call Qwen2-VL with full image for additional context
+            # Call Qwen3-VL with full image for additional context
             summary = self._call_qwen([image], prompt)
             logger.info(f"[Stage 4] Summary generated successfully ({len(summary)} chars)")
             return summary.strip()

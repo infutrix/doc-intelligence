@@ -1,0 +1,1276 @@
+{
+  "image_path": "/workspace/Paras/Streamlit/Dhananjay/OCR_challenge/data_2/0011845203.png",
+  "image_name": "0011845203.png",
+  "dimensions": {
+    "width": 762,
+    "height": 1000
+  },
+  "sections": [
+    {
+      "id": 7,
+      "label": "Page-Header",
+      "bbox_pixels": [
+        260,
+        80,
+        496,
+        99
+      ],
+      "bbox_normalized": [
+        349,
+        81,
+        666,
+        101
+      ],
+      "confidence": 0.38053590059280396,
+      "children": [
+        {
+          "id": 5001,
+          "bbox_pixels": [
+            260,
+            80,
+            494,
+            99
+          ],
+          "bbox_normalized": [
+            0,
+            0,
+            1015,
+            1024
+          ],
+          "bbox_section_relative": [
+            0,
+            0,
+            234,
+            19
+          ],
+          "confidence": 0.9123075008392334,
+          "ocr_text_paddle": "BROWH &WILLIAMSON BID REOUEST FORM",
+          "ocr_text": "BROWN & WILLIAMSON BID REQUEST FORM",
+          "font_style": "normal",
+          "decoration": "normal"
+        }
+      ],
+      "raw_text": "",
+      "ocr_text": "BROWH &WILLIAMSON BID REOUEST FORM",
+      "children_ocr_texts": [
+        "BROWN & WILLIAMSON BID REQUEST FORM"
+      ],
+      "entities": [],
+      "description": "Header of the bid request form, indicating the organization and document type."
+    },
+    {
+      "id": 8,
+      "label": "Page-Header",
+      "bbox_pixels": [
+        299,
+        107,
+        455,
+        126
+      ],
+      "bbox_normalized": [
+        401,
+        109,
+        611,
+        129
+      ],
+      "confidence": 0.5811672806739807,
+      "children": [
+        {
+          "id": 5002,
+          "bbox_pixels": [
+            300,
+            108,
+            453,
+            125
+          ],
+          "bbox_normalized": [
+            6,
+            53,
+            1010,
+            970
+          ],
+          "bbox_section_relative": [
+            1,
+            1,
+            154,
+            18
+          ],
+          "confidence": 0.9132030606269836,
+          "ocr_text_paddle": "(DUANTITATIVE RESEARCH)",
+          "ocr_text": "(QUANTITATIVE RESEARCH)",
+          "font_style": "normal",
+          "decoration": "normal"
+        }
+      ],
+      "raw_text": "",
+      "ocr_text": "(DUANTITATIVE RESEARCH)",
+      "children_ocr_texts": [
+        "(QUANTITATIVE RESEARCH)"
+      ],
+      "entities": [],
+      "description": "Specifies the type of research project the bid request is for."
+    },
+    {
+      "id": 4,
+      "label": "Text",
+      "bbox_pixels": [
+        112,
+        175,
+        399,
+        250
+      ],
+      "bbox_normalized": [
+        150,
+        179,
+        536,
+        256
+      ],
+      "confidence": 0.5920937657356262,
+      "children": [
+        {
+          "id": 5003,
+          "bbox_pixels": [
+            113,
+            229,
+            344,
+            249
+          ],
+          "bbox_normalized": [
+            3,
+            737,
+            827,
+            1010
+          ],
+          "bbox_section_relative": [
+            1,
+            54,
+            232,
+            74
+          ],
+          "confidence": 0.8808111548423767,
+          "ocr_text_paddle": "TO:Mr. Johnny Pedersen - Galup",
+          "ocr_text": "TO: Mr. Johnny Pedersen - Gallup",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5004,
+          "bbox_pixels": [
+            113,
+            205,
+            219,
+            221
+          ],
+          "bbox_normalized": [
+            3,
+            409,
+            381,
+            628
+          ],
+          "bbox_section_relative": [
+            1,
+            30,
+            107,
+            46
+          ],
+          "confidence": 0.9884917140007019,
+          "ocr_text_paddle": "B&W ORIGINATOR:",
+          "ocr_text": "B&W ORIGINATOR:",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5005,
+          "bbox_pixels": [
+            214,
+            204,
+            323,
+            220
+          ],
+          "bbox_normalized": [
+            363,
+            395,
+            752,
+            614
+          ],
+          "bbox_section_relative": [
+            102,
+            29,
+            211,
+            45
+          ],
+          "confidence": 0.9098058342933655,
+          "ocr_text_paddle": "Mary D.Davis",
+          "ocr_text": "Mary D. Davis",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5006,
+          "bbox_pixels": [
+            113,
+            179,
+            216,
+            194
+          ],
+          "bbox_normalized": [
+            3,
+            54,
+            371,
+            259
+          ],
+          "bbox_section_relative": [
+            1,
+            4,
+            104,
+            19
+          ],
+          "confidence": 0.9660404324531555,
+          "ocr_text_paddle": "PROJECT NUMBER:",
+          "ocr_text": "PROJECT NUMBER:",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5007,
+          "bbox_pixels": [
+            273,
+            176,
+            323,
+            193
+          ],
+          "bbox_normalized": [
+            574,
+            13,
+            752,
+            245
+          ],
+          "bbox_section_relative": [
+            161,
+            1,
+            211,
+            18
+          ],
+          "confidence": 0.991705596446991,
+          "ocr_text_paddle": "1991-18",
+          "ocr_text": "1991-18",
+          "font_style": "normal",
+          "decoration": "normal"
+        }
+      ],
+      "raw_text": "",
+      "ocr_text": "TO:Mr. Johnny Pedersen - Galup\nB&W ORIGINATOR: Mary D.Davis\nPROJECT NUMBER: 1991-18",
+      "children_ocr_texts": [
+        "TO: Mr. Johnny Pedersen - Gallup",
+        "B&W ORIGINATOR:",
+        "Mary D. Davis",
+        "PROJECT NUMBER:",
+        "1991-18"
+      ],
+      "entities": [
+        {
+          "key": "TO",
+          "value": "Mr. Johnny Pedersen - Gallup"
+        },
+        {
+          "key": "B&W ORIGINATOR",
+          "value": "Mary D. Davis"
+        },
+        {
+          "key": "PROJECT NUMBER",
+          "value": "1991-18"
+        }
+      ],
+      "description": "Project metadata including the recipient, originator, and project number."
+    },
+    {
+      "id": 11,
+      "label": "Page-Header",
+      "bbox_pixels": [
+        114,
+        272,
+        199,
+        290
+      ],
+      "bbox_normalized": [
+        153,
+        278,
+        267,
+        296
+      ],
+      "confidence": 0.7943724989891052,
+      "children": [
+        {
+          "id": 5008,
+          "bbox_pixels": [
+            114,
+            273,
+            197,
+            288
+          ],
+          "bbox_normalized": [
+            0,
+            56,
+            999,
+            910
+          ],
+          "bbox_section_relative": [
+            0,
+            1,
+            83,
+            16
+          ],
+          "confidence": 0.9888303875923157,
+          "ocr_text_paddle": "INSTRUCTIONS",
+          "ocr_text": "INSTRUCTIONS",
+          "font_style": "normal",
+          "decoration": "normal"
+        }
+      ],
+      "raw_text": "",
+      "ocr_text": "INSTRUCTIONS",
+      "children_ocr_texts": [
+        "INSTRUCTIONS"
+      ],
+      "entities": [],
+      "description": "Header for the instructions section of the form."
+    },
+    {
+      "id": 1,
+      "label": "Text",
+      "bbox_pixels": [
+        114,
+        295,
+        625,
+        393
+      ],
+      "bbox_normalized": [
+        153,
+        302,
+        839,
+        402
+      ],
+      "confidence": 0.7149683833122253,
+      "children": [
+        {
+          "id": 5009,
+          "bbox_pixels": [
+            156,
+            378,
+            346,
+            393
+          ],
+          "bbox_normalized": [
+            84,
+            867,
+            464,
+            1024
+          ],
+          "bbox_section_relative": [
+            42,
+            83,
+            232,
+            98
+          ],
+          "confidence": 0.9550126791000366,
+          "ocr_text_paddle": "FAX TO THE FOLLOWING PERSON:",
+          "ocr_text": "FAX TO THE FOLLOWING PERSON:",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5010,
+          "bbox_pixels": [
+            156,
+            358,
+            623,
+            382
+          ],
+          "bbox_normalized": [
+            84,
+            658,
+            1019,
+            909
+          ],
+          "bbox_section_relative": [
+            42,
+            63,
+            509,
+            87
+          ],
+          "confidence": 0.9111829996109009,
+          "ocr_text_paddle": "SECTION THO SHOULD BE COMPLETED BY THE RESEARCH AGENCY AND RETURNED BY",
+          "ocr_text": "SECTION TWO SHOULD BE COMPLETED BY THE RESEARCH AGENCY AND RETURNED BY",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5011,
+          "bbox_pixels": [
+            155,
+            334,
+            622,
+            354
+          ],
+          "bbox_normalized": [
+            82,
+            407,
+            1017,
+            616
+          ],
+          "bbox_section_relative": [
+            41,
+            39,
+            508,
+            59
+          ],
+          "confidence": 0.9186617732048035,
+          "ocr_text_paddle": "B&W.ALL BIDS SHOULD BE BASED ON THE SPECIFICATIONS IN THIS DOCUMENT.",
+          "ocr_text": "B&W. ALL BIDS SHOULD BE BASED ON THE SPECIFICATIONS IN THIS DOCUMENT.",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5012,
+          "bbox_pixels": [
+            154,
+            318,
+            618,
+            343
+          ],
+          "bbox_normalized": [
+            80,
+            240,
+            1009,
+            501
+          ],
+          "bbox_section_relative": [
+            40,
+            23,
+            504,
+            48
+          ],
+          "confidence": 0.7182033061981201,
+          "ocr_text_paddle": "SECTION ONE CONTAINS THEPROEC DESRIPTONS AND SPEIFICATIONS FROM",
+          "ocr_text": "SECTION ONE CONTAINS THE PROJECT DESCRIPTIONS AND SPECIFICATIONS FROM",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5013,
+          "bbox_pixels": [
+            114,
+            300,
+            137,
+            316
+          ],
+          "bbox_normalized": [
+            0,
+            52,
+            46,
+            219
+          ],
+          "bbox_section_relative": [
+            0,
+            5,
+            23,
+            21
+          ],
+          "confidence": 0.8533709049224854,
+          "ocr_text_paddle": "1.",
+          "ocr_text": "1.",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5014,
+          "bbox_pixels": [
+            152,
+            295,
+            503,
+            315
+          ],
+          "bbox_normalized": [
+            76,
+            0,
+            779,
+            208
+          ],
+          "bbox_section_relative": [
+            38,
+            0,
+            389,
+            20
+          ],
+          "confidence": 0.9229199290275574,
+          "ocr_text_paddle": "THE FOLLOWING DOCUMENT IS DIVIDED INTO THO SECTIONS.",
+          "ocr_text": "THE FOLLOWING DOCUMENT IS DIVIDED INTO TWO SECTIONS.",
+          "font_style": "normal",
+          "decoration": "normal"
+        }
+      ],
+      "raw_text": "",
+      "ocr_text": "1. THE FOLLOWING DOCUMENT IS DIVIDED INTO THO SECTIONS.\nSECTION ONE CONTAINS THEPROEC DESRIPTONS AND SPEIFICATIONS FROM\nB&W.ALL BIDS SHOULD BE BASED ON THE SPECIFICATIONS IN THIS DOCUMENT.\nSECTION THO SHOULD BE COMPLETED BY THE RESEARCH AGENCY AND RETURNED BY\nFAX TO THE FOLLOWING PERSON:",
+      "children_ocr_texts": [
+        "1.",
+        "THE FOLLOWING DOCUMENT IS DIVIDED INTO TWO SECTIONS.",
+        "SECTION ONE CONTAINS THE PROJECT DESCRIPTIONS AND SPECIFICATIONS FROM",
+        "B&W. ALL BIDS SHOULD BE BASED ON THE SPECIFICATIONS IN THIS DOCUMENT.",
+        "SECTION TWO SHOULD BE COMPLETED BY THE RESEARCH AGENCY AND RETURNED BY",
+        "FAX TO THE FOLLOWING PERSON:"
+      ],
+      "entities": [],
+      "description": "Instructions for the bid request, explaining the document structure and submission requirements."
+    },
+    {
+      "id": 6,
+      "label": "Text",
+      "bbox_pixels": [
+        361,
+        401,
+        547,
+        484
+      ],
+      "bbox_normalized": [
+        485,
+        410,
+        735,
+        495
+      ],
+      "confidence": 0.8127544522285461,
+      "children": [
+        {
+          "id": 5015,
+          "bbox_pixels": [
+            363,
+            466,
+            546,
+            483
+          ],
+          "bbox_normalized": [
+            11,
+            801,
+            1018,
+            1011
+          ],
+          "bbox_section_relative": [
+            2,
+            65,
+            185,
+            82
+          ],
+          "confidence": 0.9572384357452393,
+          "ocr_text_paddle": "FAX NUMBER: 1-502-568-8092",
+          "ocr_text": "FAX NUMBER: 1-502-568-8092",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5016,
+          "bbox_pixels": [
+            363,
+            443,
+            406,
+            456
+          ],
+          "bbox_normalized": [
+            11,
+            518,
+            247,
+            678
+          ],
+          "bbox_section_relative": [
+            2,
+            42,
+            45,
+            55
+          ],
+          "confidence": 0.9778085350990295,
+          "ocr_text_paddle": "U.S.A.",
+          "ocr_text": "U.S.A.",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5017,
+          "bbox_pixels": [
+            362,
+            427,
+            500,
+            443
+          ],
+          "bbox_normalized": [
+            5,
+            320,
+            765,
+            518
+          ],
+          "bbox_section_relative": [
+            1,
+            26,
+            139,
+            42
+          ],
+          "confidence": 0.9755124449729919,
+          "ocr_text_paddle": "LOUISVILLE,KENTUCKY",
+          "ocr_text": "LOUISVILLE,KENTUCKY",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5018,
+          "bbox_pixels": [
+            363,
+            417,
+            387,
+            430
+          ],
+          "bbox_normalized": [
+            11,
+            197,
+            143,
+            357
+          ],
+          "bbox_section_relative": [
+            2,
+            16,
+            26,
+            29
+          ],
+          "confidence": 0.979210376739502,
+          "ocr_text_paddle": "B&W",
+          "ocr_text": "B&W",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5019,
+          "bbox_pixels": [
+            362,
+            401,
+            459,
+            418
+          ],
+          "bbox_normalized": [
+            5,
+            0,
+            539,
+            209
+          ],
+          "bbox_section_relative": [
+            1,
+            0,
+            98,
+            17
+          ],
+          "confidence": 0.9707349538803101,
+          "ocr_text_paddle": "MS. JACKIE KEY",
+          "ocr_text": "MS. JACKIE KEY",
+          "font_style": "normal",
+          "decoration": "normal"
+        }
+      ],
+      "raw_text": "",
+      "ocr_text": "MS. JACKIE KEY\nB&W\nLOUISVILLE, KENTUCKY\nU.S.A.\nFAX NUMBER: 1-502-568-8092",
+      "children_ocr_texts": [
+        "FAX NUMBER: 1-502-568-8092",
+        "U.S.A.",
+        "LOUISVILLE,KENTUCKY",
+        "B&W",
+        "MS. JACKIE KEY"
+      ],
+      "entities": [
+        {
+          "name": "MS. JACKIE KEY",
+          "type": "person"
+        },
+        {
+          "location": "LOUISVILLE, KENTUCKY, U.S.A.",
+          "type": "address"
+        },
+        {
+          "fax_number": "1-502-568-8092",
+          "type": "contact"
+        }
+      ],
+      "description": "Contact information for MS. JACKIE KEY, including name, address, and fax number."
+    },
+    {
+      "id": 3,
+      "label": "Text",
+      "bbox_pixels": [
+        116,
+        494,
+        647,
+        580
+      ],
+      "bbox_normalized": [
+        155,
+        505,
+        869,
+        593
+      ],
+      "confidence": 0.613060474395752,
+      "children": [
+        {
+          "id": 5020,
+          "bbox_pixels": [
+            157,
+            564,
+            195,
+            580
+          ],
+          "bbox_normalized": [
+            79,
+            833,
+            152,
+            1024
+          ],
+          "bbox_section_relative": [
+            41,
+            70,
+            79,
+            86
+          ],
+          "confidence": 0.9936750531196594,
+          "ocr_text_paddle": "FORM.",
+          "ocr_text": "FORM.",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5021,
+          "bbox_pixels": [
+            156,
+            545,
+            614,
+            566
+          ],
+          "bbox_normalized": [
+            77,
+            607,
+            960,
+            857
+          ],
+          "bbox_section_relative": [
+            40,
+            51,
+            498,
+            72
+          ],
+          "confidence": 0.9329291582107544,
+          "ocr_text_paddle": "THESE SHOULD BE SUBMITTED AS SEPARATE DOCUMENTS APPENDED TO THIS BID",
+          "ocr_text": "THESE SHOULD BE SUBMITTED AS SEPARATE DOCUMENTS APPENDED TO THIS BID",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5022,
+          "bbox_pixels": [
+            157,
+            531,
+            645,
+            552
+          ],
+          "bbox_normalized": [
+            79,
+            440,
+            1020,
+            690
+          ],
+          "bbox_section_relative": [
+            41,
+            37,
+            529,
+            58
+          ],
+          "confidence": 0.9248749613761902,
+          "ocr_text_paddle": "SUGGESTIONS FOR ALTERNATE DESIGNS FROM THE AGENCY ARE WELCOMED. HOWEVER,",
+          "ocr_text": "SUGGESTIONS FOR ALTERNATE DESIGNS FROM THE AGENCY ARE WELCOMED. HOWEVER,",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5023,
+          "bbox_pixels": [
+            157,
+            507,
+            459,
+            526
+          ],
+          "bbox_normalized": [
+            79,
+            154,
+            661,
+            381
+          ],
+          "bbox_section_relative": [
+            41,
+            13,
+            343,
+            32
+          ],
+          "confidence": 0.9614782333374023,
+          "ocr_text_paddle": "FOR THE RESEARCH AS SPECIFIED IN SECTION ONE.",
+          "ocr_text": "FOR THE RESEARCH AS SPECIFIED IN SECTION ONE.",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5024,
+          "bbox_pixels": [
+            116,
+            499,
+            133,
+            515
+          ],
+          "bbox_normalized": [
+            0,
+            59,
+            32,
+            250
+          ],
+          "bbox_section_relative": [
+            0,
+            5,
+            17,
+            21
+          ],
+          "confidence": 0.9939775466918945,
+          "ocr_text_paddle": "2.",
+          "ocr_text": "2.",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5025,
+          "bbox_pixels": [
+            157,
+            494,
+            627,
+            513
+          ],
+          "bbox_normalized": [
+            79,
+            0,
+            985,
+            226
+          ],
+          "bbox_section_relative": [
+            41,
+            0,
+            511,
+            19
+          ],
+          "confidence": 0.9363426566123962,
+          "ocr_text_paddle": "IN ORDER TO ALLOW US TO COMPARE BIDS,WE REQUEST THAT YOU SUBMIT A BID",
+          "ocr_text": "IN ORDER TO ALLOW US TO COMPARE BIDS,WE REQUEST THAT YOU SUBMIT A BID",
+          "font_style": "normal",
+          "decoration": "normal"
+        }
+      ],
+      "raw_text": "",
+      "ocr_text": "2.\nIN ORDER TO ALLOW US TO COMPARE BIDS,WE REQUEST THAT YOU SUBMIT A BID\nFOR THE RESEARCH AS SPECIFIED IN SECTION ONE.\nSUGGESTIONS FOR ALTERNATE DESIGNS FROM THE AGENCY ARE WELCOMED. HOWEVER,\nTHESE SHOULD BE SUBMITTED AS SEPARATE DOCUMENTS APPENDED TO THIS BID\nFORM.",
+      "children_ocr_texts": [
+        "FORM.",
+        "THESE SHOULD BE SUBMITTED AS SEPARATE DOCUMENTS APPENDED TO THIS BID",
+        "SUGGESTIONS FOR ALTERNATE DESIGNS FROM THE AGENCY ARE WELCOMED. HOWEVER,",
+        "FOR THE RESEARCH AS SPECIFIED IN SECTION ONE.",
+        "2.",
+        "IN ORDER TO ALLOW US TO COMPARE BIDS,WE REQUEST THAT YOU SUBMIT A BID"
+      ],
+      "entities": [],
+      "description": "Instruction to submit a bid and note that alternate design suggestions should be submitted as separate documents."
+    },
+    {
+      "id": 2,
+      "label": "Text",
+      "bbox_pixels": [
+        116,
+        586,
+        648,
+        673
+      ],
+      "bbox_normalized": [
+        155,
+        600,
+        870,
+        689
+      ],
+      "confidence": 0.7475335001945496,
+      "children": [
+        {
+          "id": 5026,
+          "bbox_pixels": [
+            158,
+            654,
+            342,
+            671
+          ],
+          "bbox_normalized": [
+            80,
+            800,
+            435,
+            1000
+          ],
+          "bbox_section_relative": [
+            42,
+            68,
+            226,
+            85
+          ],
+          "confidence": 0.9736488461494446,
+          "ocr_text_paddle": "FAX NUMBER:1-502-568-8092",
+          "ocr_text": "FAX NUMBER:1-502-568-8092",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5027,
+          "bbox_pixels": [
+            159,
+            628,
+            263,
+            646
+          ],
+          "bbox_normalized": [
+            82,
+            494,
+            282,
+            706
+          ],
+          "bbox_section_relative": [
+            43,
+            42,
+            147,
+            60
+          ],
+          "confidence": 0.8871650695800781,
+          "ocr_text_paddle": "_Mary D.Davis",
+          "ocr_text": "_Mary D.Davis",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5028,
+          "bbox_pixels": [
+            116,
+            591,
+            138,
+            606
+          ],
+          "bbox_normalized": [
+            0,
+            58,
+            42,
+            235
+          ],
+          "bbox_section_relative": [
+            0,
+            5,
+            22,
+            20
+          ],
+          "confidence": 0.991981029510498,
+          "ocr_text_paddle": "3.",
+          "ocr_text": "3.",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5029,
+          "bbox_pixels": [
+            156,
+            586,
+            580,
+            605
+          ],
+          "bbox_normalized": [
+            76,
+            0,
+            893,
+            223
+          ],
+          "bbox_section_relative": [
+            40,
+            0,
+            464,
+            19
+          ],
+          "confidence": 0.9522426128387451,
+          "ocr_text_paddle": "IF YOU HAVE ANY QUESTIONS, PLEASE CONTACT THE FOLLOWING PERSON:",
+          "ocr_text": "IF YOU HAVE ANY QUESTIONS, PLEASE CONTACT THE FOLLOWING PERSON:",
+          "font_style": "normal",
+          "decoration": "normal"
+        }
+      ],
+      "raw_text": "",
+      "ocr_text": "3.\nIF YOU HAVE ANY QUESTIONS, PLEASE CONTACT THE FOLLOWING PERSON:\n_Mary D.Davis_\nFAX NUMBER:1-502-568-8092",
+      "children_ocr_texts": [
+        "FAX NUMBER:1-502-568-8092",
+        "_Mary D.Davis",
+        "3.",
+        "IF YOU HAVE ANY QUESTIONS, PLEASE CONTACT THE FOLLOWING PERSON:"
+      ],
+      "entities": [
+        {
+          "name": "Mary D. Davis",
+          "type": "person"
+        },
+        {
+          "fax_number": "1-502-568-8092",
+          "type": "contact"
+        }
+      ],
+      "description": "Contact information for Mary D. Davis, who can be reached for questions."
+    },
+    {
+      "id": 10,
+      "label": "Page-Header",
+      "bbox_pixels": [
+        118,
+        696,
+        238,
+        713
+      ],
+      "bbox_normalized": [
+        158,
+        712,
+        319,
+        730
+      ],
+      "confidence": 0.41689541935920715,
+      "children": [
+        {
+          "id": 5030,
+          "bbox_pixels": [
+            118,
+            696,
+            237,
+            712
+          ],
+          "bbox_normalized": [
+            0,
+            0,
+            1015,
+            963
+          ],
+          "bbox_section_relative": [
+            0,
+            0,
+            119,
+            16
+          ],
+          "confidence": 0.9746614098548889,
+          "ocr_text_paddle": "OTHER INFORMATION",
+          "ocr_text": "OTHER INFORMATION",
+          "font_style": "normal",
+          "decoration": "normal"
+        }
+      ],
+      "raw_text": "",
+      "ocr_text": "OTHER INFORMATION",
+      "children_ocr_texts": [
+        "OTHER INFORMATION"
+      ],
+      "entities": [],
+      "description": "Section header indicating the start of additional information."
+    },
+    {
+      "id": 5,
+      "label": "Text",
+      "bbox_pixels": [
+        118,
+        720,
+        537,
+        758
+      ],
+      "bbox_normalized": [
+        158,
+        737,
+        721,
+        776
+      ],
+      "confidence": 0.8837674260139465,
+      "children": [
+        {
+          "id": 5031,
+          "bbox_pixels": [
+            118,
+            740,
+            289,
+            758
+          ],
+          "bbox_normalized": [
+            0,
+            538,
+            417,
+            1024
+          ],
+          "bbox_section_relative": [
+            0,
+            20,
+            171,
+            38
+          ],
+          "confidence": 0.9532318115234375,
+          "ocr_text_paddle": "DEADLINE FOR BID RECEIPT:",
+          "ocr_text": "DEADLINE FOR BID RECEIPT:",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5032,
+          "bbox_pixels": [
+            324,
+            740,
+            370,
+            757
+          ],
+          "bbox_normalized": [
+            503,
+            538,
+            615,
+            997
+          ],
+          "bbox_section_relative": [
+            206,
+            20,
+            252,
+            37
+          ],
+          "confidence": 0.9924929738044739,
+          "ocr_text_paddle": "3/1/91",
+          "ocr_text": "3/1/91",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5033,
+          "bbox_pixels": [
+            119,
+            724,
+            222,
+            739
+          ],
+          "bbox_normalized": [
+            2,
+            107,
+            254,
+            512
+          ],
+          "bbox_section_relative": [
+            1,
+            4,
+            104,
+            19
+          ],
+          "confidence": 0.9738664627075195,
+          "ocr_text_paddle": "DATE REQUESTED:",
+          "ocr_text": "DATE REQUESTED:",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5034,
+          "bbox_pixels": [
+            321,
+            721,
+            429,
+            738
+          ],
+          "bbox_normalized": [
+            496,
+            26,
+            760,
+            485
+          ],
+          "bbox_section_relative": [
+            203,
+            1,
+            311,
+            18
+          ],
+          "confidence": 0.9646091461181641,
+          "ocr_text_paddle": "_2/22 by courier",
+          "ocr_text": "_2/22 by courier",
+          "font_style": "normal",
+          "decoration": "normal"
+        }
+      ],
+      "raw_text": "",
+      "ocr_text": "DATE REQUESTED: _2/22 by courier\nDEADLINE FOR BID RECEIPT: 3/1/91",
+      "children_ocr_texts": [
+        "DEADLINE FOR BID RECEIPT:",
+        "3/1/91",
+        "DATE REQUESTED:",
+        "_2/22 by courier"
+      ],
+      "entities": [
+        {
+          "date_requested": "2/22 by courier",
+          "type": "date"
+        },
+        {
+          "deadline": "3/1/91",
+          "type": "date"
+        }
+      ],
+      "description": "Specifies the requested date and the deadline for bid receipt."
+    },
+    {
+      "id": 9,
+      "label": "Text",
+      "bbox_pixels": [
+        507,
+        838,
+        618,
+        858
+      ],
+      "bbox_normalized": [
+        681,
+        858,
+        830,
+        878
+      ],
+      "confidence": 0.7553591728210449,
+      "children": [
+        {
+          "id": 5035,
+          "bbox_pixels": [
+            507,
+            838,
+            618,
+            858
+          ],
+          "bbox_normalized": [
+            0,
+            0,
+            1024,
+            1024
+          ],
+          "bbox_section_relative": [
+            0,
+            0,
+            111,
+            20
+          ],
+          "confidence": 0.9996404647827148,
+          "ocr_text_paddle": "464565018",
+          "ocr_text": "464565018",
+          "font_style": "normal",
+          "decoration": "normal"
+        }
+      ],
+      "raw_text": "",
+      "ocr_text": "464565018",
+      "children_ocr_texts": [
+        "464565018"
+      ],
+      "entities": [],
+      "description": "A numeric string, likely an ID or code, displayed as a single line of text."
+    }
+  ],
+  "processing_timestamp": "2025-12-23T05:40:50.941013",
+  "summary": "# Brown & Williamson Bid Request Form: Quantitative Research\n\nThis document is a formal bid request form issued by Brown & Williamson (B&W) for a quantitative research project. The form is structured to guide research agencies in submitting bids and alternate design suggestions, while providing clear contact points and submission instructions.\n\n## Document Structure and Layout\n\nThe document is organized into several clearly defined sections, with headers and numbered instructions to guide the reader. The layout is clean and professional, with a top header, project metadata, an \"INSTRUCTIONS\" section, and an \"OTHER INFORMATION\" section at the bottom. The form is designed to be completed and returned via fax, as indicated in the instructions.\n\n## Main Purpose\n\nThe primary purpose of this document is to solicit bids from research agencies for a specific quantitative research project. B&W has provided detailed project specifications in \"Section One\" of the form, and agencies are required to base their bids on these specifications. The form also invites agencies to submit alternate design suggestions, which must be provided as separate documents.\n\n## Key Information\n\n### Project Details\n- **Project Number:** 1991-18\n- **B&W Originator:** Mary D. Davis\n- **Recipient (To):** Mr. Johnny Pedersen - Gallup\n\n### Instructions\n1. The document is divided into two sections:\n   - **Section One** contains the project descriptions and specifications from B&W. All bids must be based on these specifications.\n   - **Section Two** must be completed by the research agency and returned by fax to:\n     - **MS. JACKIE KEY**\n     - **B&W**\n     - **LOUISVILLE, KENTUCKY, U.S.A.**\n     - **FAX NUMBER: 1-502-568-8092**\n\n2. Agencies are requested to submit a bid for the research as specified in Section One. Suggestions for alternate designs are welcomed but must be submitted as separate documents appended to the bid form.\n\n3. If any questions arise, agencies should contact:\n   - **Mary D. Davis**\n   - **FAX NUMBER: 1-502-568-8092**\n\n### Other Information\n- **Date Requested:** 2/22 by courier\n- **Deadline for Bid Receipt:** 3/1/91\n\n### Notable Entities\n- **People:**\n  - Mary D. Davis (B&W Originator, contact for questions)\n  - Mr. Johnny Pedersen - Gallup (recipient of the form)\n  - MS. JACKIE KEY (contact for bid submission)\n- **Location:**\n  - Louisville, Kentucky, U.S.A. (B&W office)\n- **Phone/Fax Numbers:**\n  - 1-502-568-8092 (for both MS. JACKIE KEY and Mary D. Davis)\n- **Project ID:**\n  - 1991-18\n- **Document ID:**\n  - 464565018 (likely an internal tracking or form number)\n\n## Summary\n\nThis bid request form is a professional and structured document from Brown & Williamson, inviting research agencies to submit bids for a quantitative research project. The form includes all necessary information for the agency to understand the project scope, how to submit their bid, and who to contact for questions. The document is designed to be completed and returned via fax, with a clear deadline of March 1, 1991, and a requested date of February 22, 1991, via courier. The form also allows for the submission of alternate design suggestions, which should be sent as separate documents. The document is well-organized, with clear headings and contact information, making it easy for agencies to follow the submission process."
+}
