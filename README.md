@@ -1,4 +1,4 @@
-# OCR Pipeline V2
+# OCR Pipeline
 
 ![Document OCR Processing](resource/Document%20OCR%20Processing-2025-12-22-121736.svg)
 
