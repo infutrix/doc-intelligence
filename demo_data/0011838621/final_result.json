@@ -1,0 +1,2065 @@
+{
+  "image_path": "/workspace/Paras/Streamlit/Dhananjay/OCR_challenge/data_2/0011838621.png",
+  "image_name": "0011838621.png",
+  "dimensions": {
+    "width": 762,
+    "height": 1000
+  },
+  "sections": [
+    {
+      "id": 6,
+      "label": "Page-Header",
+      "bbox_pixels": [
+        199,
+        86,
+        408,
+        116
+      ],
+      "bbox_normalized": [
+        267,
+        88,
+        548,
+        118
+      ],
+      "confidence": 0.516128659248352,
+      "children": [
+        {
+          "id": 5001,
+          "bbox_pixels": [
+            222,
+            99,
+            388,
+            116
+          ],
+          "bbox_normalized": [
+            112,
+            443,
+            926,
+            1024
+          ],
+          "bbox_section_relative": [
+            23,
+            13,
+            189,
+            30
+          ],
+          "confidence": 0.96856290102005,
+          "ocr_text_paddle": "CHANGE OF AUTHORIZED COST",
+          "ocr_text": "CHANGE OF AUTHORIZED COST",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5002,
+          "bbox_pixels": [
+            199,
+            86,
+            408,
+            106
+          ],
+          "bbox_normalized": [
+            0,
+            0,
+            1024,
+            682
+          ],
+          "bbox_section_relative": [
+            0,
+            0,
+            209,
+            20
+          ],
+          "confidence": 0.9782081246376038,
+          "ocr_text_paddle": "INTERNATIONAL MARKETING RESEARCH",
+          "ocr_text": "INTERNATIONAL MARKETING RESEARCH",
+          "font_style": "normal",
+          "decoration": "normal"
+        }
+      ],
+      "raw_text": "",
+      "ocr_text": "INTERNATIONAL MARKETING RESEARCH\nCHANGE OF AUTHORIZED COST",
+      "children_ocr_texts": [
+        "CHANGE OF AUTHORIZED COST",
+        "INTERNATIONAL MARKETING RESEARCH"
+      ],
+      "entities": [],
+      "description": "Page header indicating the document is about a change in authorized cost for international marketing research."
+    },
+    {
+      "id": 4,
+      "label": "Text",
+      "bbox_pixels": [
+        53,
+        125,
+        556,
+        196
+      ],
+      "bbox_normalized": [
+        71,
+        128,
+        747,
+        200
+      ],
+      "confidence": 0.7641997337341309,
+      "children": [
+        {
+          "id": 5003,
+          "bbox_pixels": [
+            55,
+            177,
+            181,
+            196
+          ],
+          "bbox_normalized": [
+            4,
+            749,
+            260,
+            1024
+          ],
+          "bbox_section_relative": [
+            2,
+            52,
+            128,
+            71
+          ],
+          "confidence": 0.9192352890968323,
+          "ocr_text_paddle": "Supplier:MDR,HK",
+          "ocr_text": "Supplier:MDR,HK",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5004,
+          "bbox_pixels": [
+            54,
+            148,
+            387,
+            172
+          ],
+          "bbox_normalized": [
+            2,
+            331,
+            679,
+            677
+          ],
+          "bbox_section_relative": [
+            1,
+            23,
+            334,
+            47
+          ],
+          "confidence": 0.7444474101066589,
+          "ocr_text_paddle": "Descriton:Hon Kon: Cigarett Mrkt Mr",
+          "ocr_text": "Description: Hong Kong: Cigarette Market Monitor",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5005,
+          "bbox_pixels": [
+            53,
+            127,
+            148,
+            147
+          ],
+          "bbox_normalized": [
+            0,
+            28,
+            193,
+            317
+          ],
+          "bbox_section_relative": [
+            0,
+            2,
+            95,
+            22
+          ],
+          "confidence": 0.9828364849090576,
+          "ocr_text_paddle": "Date:6/21/90",
+          "ocr_text": "Date:6/21/90",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5006,
+          "bbox_pixels": [
+            475,
+            126,
+            487,
+            134
+          ],
+          "bbox_normalized": [
+            859,
+            14,
+            883,
+            129
+          ],
+          "bbox_section_relative": [
+            422,
+            1,
+            434,
+            9
+          ],
+          "confidence": 0.9969032406806946,
+          "ocr_text_paddle": "2",
+          "ocr_text": "2",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5007,
+          "bbox_pixels": [
+            436,
+            125,
+            461,
+            137
+          ],
+          "bbox_normalized": [
+            779,
+            0,
+            830,
+            173
+          ],
+          "bbox_section_relative": [
+            383,
+            0,
+            408,
+            12
+          ],
+          "confidence": 0.9947977066040039,
+          "ocr_text_paddle": "No.",
+          "ocr_text": "No.",
+          "font_style": "normal",
+          "decoration": "normal"
+        }
+      ],
+      "raw_text": "",
+      "ocr_text": "Date:6/21/90\nNo. 27\nDescriton:Hon Kon: Cigarett Mrkt Mr\nSupplier:MDR,HK",
+      "children_ocr_texts": [
+        "Supplier:MDR,HK",
+        "Description: Hong Kong: Cigarette Market Monitor",
+        "Date:6/21/90",
+        "2",
+        "No."
+      ],
+      "entities": [
+        {
+          "key": "Date",
+          "value": "6/21/90"
+        },
+        {
+          "key": "No.",
+          "value": "27"
+        },
+        {
+          "key": "Description",
+          "value": "Hong Kong: Cigarette Market Monitor"
+        },
+        {
+          "key": "Supplier",
+          "value": "MDR, HK"
+        }
+      ],
+      "description": "Header section with metadata including date, document number, description, and supplier information."
+    },
+    {
+      "id": 3,
+      "label": "Text",
+      "bbox_pixels": [
+        55,
+        199,
+        503,
+        284
+      ],
+      "bbox_normalized": [
+        73,
+        203,
+        675,
+        290
+      ],
+      "confidence": 0.5101897716522217,
+      "children": [
+        {
+          "id": 5008,
+          "bbox_pixels": [
+            56,
+            265,
+            259,
+            284
+          ],
+          "bbox_normalized": [
+            2,
+            795,
+            466,
+            1024
+          ],
+          "bbox_section_relative": [
+            1,
+            66,
+            204,
+            85
+          ],
+          "confidence": 0.9555033445358276,
+          "ocr_text_paddle": "Adjusted Total Cost of Project:",
+          "ocr_text": "Adjusted Total Cost of Project:",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5009,
+          "bbox_pixels": [
+            328,
+            261,
+            410,
+            279
+          ],
+          "bbox_normalized": [
+            624,
+            746,
+            811,
+            963
+          ],
+          "bbox_section_relative": [
+            273,
+            62,
+            355,
+            80
+          ],
+          "confidence": 0.8919185400009155,
+          "ocr_text_paddle": "5_47,711.47",
+          "ocr_text": "47,711.47",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5010,
+          "bbox_pixels": [
+            464,
+            261,
+            488,
+            276
+          ],
+          "bbox_normalized": [
+            934,
+            746,
+            989,
+            927
+          ],
+          "bbox_section_relative": [
+            409,
+            62,
+            433,
+            77
+          ],
+          "confidence": 0.9992642402648926,
+          "ocr_text_paddle": ".08",
+          "ocr_text": ".08",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5011,
+          "bbox_pixels": [
+            252,
+            252,
+            329,
+            268
+          ],
+          "bbox_normalized": [
+            450,
+            638,
+            626,
+            831
+          ],
+          "bbox_section_relative": [
+            197,
+            53,
+            274,
+            69
+          ],
+          "confidence": 0.963250458240509,
+          "ocr_text_paddle": "(10% Change)",
+          "ocr_text": "(10% Change)",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5012,
+          "bbox_pixels": [
+            56,
+            239,
+            301,
+            260
+          ],
+          "bbox_normalized": [
+            2,
+            481,
+            562,
+            734
+          ],
+          "bbox_section_relative": [
+            1,
+            40,
+            246,
+            61
+          ],
+          "confidence": 0.935551106929779,
+          "ocr_text_paddle": "Amt. of Change: Increase X Decrease",
+          "ocr_text": "Amt. of Change: Increase X Decrease",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5013,
+          "bbox_pixels": [
+            329,
+            241,
+            338,
+            249
+          ],
+          "bbox_normalized": [
+            626,
+            505,
+            646,
+            602
+          ],
+          "bbox_section_relative": [
+            274,
+            42,
+            283,
+            50
+          ],
+          "confidence": 0.16496460139751434,
+          "ocr_text_paddle": "1",
+          "ocr_text": "1",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5014,
+          "bbox_pixels": [
+            351,
+            237,
+            409,
+            252
+          ],
+          "bbox_normalized": [
+            676,
+            457,
+            809,
+            638
+          ],
+          "bbox_section_relative": [
+            296,
+            38,
+            354,
+            53
+          ],
+          "confidence": 0.9452236890792847,
+          "ocr_text_paddle": "4,376.47",
+          "ocr_text": "4,376.47",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5015,
+          "bbox_pixels": [
+            464,
+            236,
+            488,
+            249
+          ],
+          "bbox_normalized": [
+            934,
+            445,
+            989,
+            602
+          ],
+          "bbox_section_relative": [
+            409,
+            37,
+            433,
+            50
+          ],
+          "confidence": 0.9983675479888916,
+          "ocr_text_paddle": ".08",
+          "ocr_text": ".08",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5016,
+          "bbox_pixels": [
+            55,
+            214,
+            285,
+            235
+          ],
+          "bbox_normalized": [
+            0,
+            180,
+            525,
+            433
+          ],
+          "bbox_section_relative": [
+            0,
+            15,
+            230,
+            36
+          ],
+          "confidence": 0.9383881688117981,
+          "ocr_text_paddle": "Previous  Commitments This Project",
+          "ocr_text": "Previous Commitments This Project",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5017,
+          "bbox_pixels": [
+            345,
+            212,
+            409,
+            227
+          ],
+          "bbox_normalized": [
+            662,
+            156,
+            809,
+            337
+          ],
+          "bbox_section_relative": [
+            290,
+            13,
+            354,
+            28
+          ],
+          "confidence": 0.9834982752799988,
+          "ocr_text_paddle": "43,335.00",
+          "ocr_text": "43,335.00",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5018,
+          "bbox_pixels": [
+            455,
+            211,
+            486,
+            226
+          ],
+          "bbox_normalized": [
+            914,
+            144,
+            985,
+            325
+          ],
+          "bbox_section_relative": [
+            400,
+            12,
+            431,
+            27
+          ],
+          "confidence": 0.9961405992507935,
+          "ocr_text_paddle": "0.00",
+          "ocr_text": "0.00",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5019,
+          "bbox_pixels": [
+            340,
+            199,
+            408,
+            216
+          ],
+          "bbox_normalized": [
+            651,
+            0,
+            806,
+            204
+          ],
+          "bbox_section_relative": [
+            285,
+            0,
+            353,
+            17
+          ],
+          "confidence": 0.9707479476928711,
+          "ocr_text_paddle": "Total Cost",
+          "ocr_text": "Total Cost",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5020,
+          "bbox_pixels": [
+            437,
+            199,
+            498,
+            213
+          ],
+          "bbox_normalized": [
+            873,
+            0,
+            1012,
+            168
+          ],
+          "bbox_section_relative": [
+            382,
+            0,
+            443,
+            14
+          ],
+          "confidence": 0.9765438437461853,
+          "ocr_text_paddle": "1990 Cost",
+          "ocr_text": "1990 Cost",
+          "font_style": "normal",
+          "decoration": "normal"
+        }
+      ],
+      "raw_text": "",
+      "ocr_text": "Previous  Commitments This Project\nTotal Cost\n1990 Cost\n43,335.00\n0.00\nAmt. of Change: Increase X Decrease\n4,376.47\n.08\nAdjusted Total Cost of Project:\n$47,711.47\n.08\n(10% Change)",
+      "children_ocr_texts": [
+        "Previous Commitments This Project",
+        "43,335.00",
+        "0.00",
+        "Total Cost",
+        "1990 Cost",
+        "Amt. of Change: Increase X Decrease",
+        "1",
+        "4,376.47",
+        ".08",
+        "Adjusted Total Cost of Project:",
+        "47,711.47",
+        ".08",
+        "(10% Change)"
+      ],
+      "entities": [
+        {
+          "key": "Previous Commitments This Project",
+          "value": "43,335.00"
+        },
+        {
+          "key": "Total Cost",
+          "value": "0.00"
+        },
+        {
+          "key": "Amt. of Change: Increase",
+          "value": "4,376.47"
+        },
+        {
+          "key": "Amt. of Change: Decrease",
+          "value": "0.08"
+        },
+        {
+          "key": "Adjusted Total Cost of Project",
+          "value": "47,711.47"
+        },
+        {
+          "key": "10% Change",
+          "value": "0.08"
+        }
+      ],
+      "description": "Financial summary section showing previous commitments, cost change, and adjusted total cost of the project."
+    },
+    {
+      "id": 5,
+      "label": "Text",
+      "bbox_pixels": [
+        55,
+        295,
+        537,
+        348
+      ],
+      "bbox_normalized": [
+        73,
+        302,
+        721,
+        356
+      ],
+      "confidence": 0.6952869296073914,
+      "children": [
+        {
+          "id": 5021,
+          "bbox_pixels": [
+            55,
+            327,
+            259,
+            348
+          ],
+          "bbox_normalized": [
+            0,
+            618,
+            433,
+            1024
+          ],
+          "bbox_section_relative": [
+            0,
+            32,
+            204,
+            53
+          ],
+          "confidence": 0.8659233450889587,
+          "ocr_text_paddle": "Lee memo of September 11, 1989)",
+          "ocr_text": "L. Lee memo of September 11, 1989)",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5022,
+          "bbox_pixels": [
+            56,
+            311,
+            536,
+            335
+          ],
+          "bbox_normalized": [
+            2,
+            309,
+            1021,
+            772
+          ],
+          "bbox_section_relative": [
+            1,
+            16,
+            481,
+            40
+          ],
+          "confidence": 0.6932645440101624,
+          "ocr_text_paddle": "Orignal MRA did no icludecost for the first mono the stuee.",
+          "ocr_text": "Original MRA did not include cost for the first month of the study.",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5023,
+          "bbox_pixels": [
+            56,
+            295,
+            109,
+            309
+          ],
+          "bbox_normalized": [
+            2,
+            0,
+            114,
+            270
+          ],
+          "bbox_section_relative": [
+            1,
+            0,
+            54,
+            14
+          ],
+          "confidence": 0.9672852754592896,
+          "ocr_text_paddle": "Reasons:",
+          "ocr_text": "Reasons:",
+          "font_style": "normal",
+          "decoration": "normal"
+        }
+      ],
+      "raw_text": "",
+      "ocr_text": "Reasons:\nOrignal MRA did no icludecost for the first mono the stuee.\nLee memo of September 11, 1989)",
+      "children_ocr_texts": [
+        "Reasons:",
+        "Original MRA did not include cost for the first month of the study.",
+        "L. Lee memo of September 11, 1989)"
+      ],
+      "entities": [
+        {
+          "key": "Reasons",
+          "value": "Original MRA did not include cost for the first month of the study (see L. Lee memo of September 11, 1989)"
+        }
+      ],
+      "description": "Section explaining the reason for the cost change, referencing a previous memo."
+    },
+    {
+      "id": 1,
+      "label": "Text",
+      "bbox_pixels": [
+        57,
+        360,
+        558,
+        638
+      ],
+      "bbox_normalized": [
+        76,
+        368,
+        749,
+        653
+      ],
+      "confidence": 0.37824755907058716,
+      "children": [
+        {
+          "id": 5024,
+          "bbox_pixels": [
+            73,
+            585,
+            123,
+            600
+          ],
+          "bbox_normalized": [
+            32,
+            828,
+            134,
+            884
+          ],
+          "bbox_section_relative": [
+            16,
+            225,
+            66,
+            240
+          ],
+          "confidence": 0.9822057485580444,
+          "ocr_text_paddle": "Wave(s)",
+          "ocr_text": "Wave(s)",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5025,
+          "bbox_pixels": [
+            274,
+            577,
+            367,
+            596
+          ],
+          "bbox_normalized": [
+            443,
+            799,
+            633,
+            869
+          ],
+          "bbox_section_relative": [
+            217,
+            217,
+            310,
+            236
+          ],
+          "confidence": 0.9440855979919434,
+          "ocr_text_paddle": "(Current Year)",
+          "ocr_text": "(Current Year)",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5026,
+          "bbox_pixels": [
+            61,
+            568,
+            163,
+            588
+          ],
+          "bbox_normalized": [
+            8,
+            766,
+            216,
+            839
+          ],
+          "bbox_section_relative": [
+            4,
+            208,
+            106,
+            228
+          ],
+          "confidence": 0.9820919036865234,
+          "ocr_text_paddle": "(Supplier Rpt.)",
+          "ocr_text": "(Supplier Rpt.)",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5027,
+          "bbox_pixels": [
+            274,
+            564,
+            393,
+            582
+          ],
+          "bbox_normalized": [
+            443,
+            751,
+            686,
+            817
+          ],
+          "bbox_section_relative": [
+            217,
+            204,
+            336,
+            222
+          ],
+          "confidence": 0.9641942977905273,
+          "ocr_text_paddle": "Committed to Date:",
+          "ocr_text": "Committed to Date:",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5028,
+          "bbox_pixels": [
+            439,
+            560,
+            530,
+            579
+          ],
+          "bbox_normalized": [
+            780,
+            736,
+            966,
+            806
+          ],
+          "bbox_section_relative": [
+            382,
+            200,
+            473,
+            219
+          ],
+          "confidence": 0.9609367251396179,
+          "ocr_text_paddle": "1,471,873.85",
+          "ocr_text": "1,471,873.85",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5029,
+          "bbox_pixels": [
+            59,
+            555,
+            169,
+            574
+          ],
+          "bbox_normalized": [
+            4,
+            718,
+            228,
+            788
+          ],
+          "bbox_section_relative": [
+            2,
+            195,
+            112,
+            214
+          ],
+          "confidence": 0.9665715098381042,
+          "ocr_text_paddle": "Final Report Due",
+          "ocr_text": "Final Report Due",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5030,
+          "bbox_pixels": [
+            272,
+            513,
+            354,
+            532
+          ],
+          "bbox_normalized": [
+            439,
+            563,
+            607,
+            633
+          ],
+          "bbox_section_relative": [
+            215,
+            153,
+            297,
+            172
+          ],
+          "confidence": 0.9338691234588623,
+          "ocr_text_paddle": "New Balance:",
+          "ocr_text": "New Balance:",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5031,
+          "bbox_pixels": [
+            442,
+            509,
+            529,
+            528
+          ],
+          "bbox_normalized": [
+            786,
+            548,
+            964,
+            618
+          ],
+          "bbox_section_relative": [
+            385,
+            149,
+            472,
+            168
+          ],
+          "confidence": 0.9441750645637512,
+          "ocr_text_paddle": "1,488,126.15",
+          "ocr_text": "1,488,126.15",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5032,
+          "bbox_pixels": [
+            71,
+            494,
+            121,
+            512
+          ],
+          "bbox_normalized": [
+            28,
+            493,
+            130,
+            559
+          ],
+          "bbox_section_relative": [
+            14,
+            134,
+            64,
+            152
+          ],
+          "confidence": 0.9076114296913147,
+          "ocr_text_paddle": "Wave(s)",
+          "ocr_text": "Wave(s)",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5033,
+          "bbox_pixels": [
+            58,
+            480,
+            154,
+            498
+          ],
+          "bbox_normalized": [
+            2,
+            442,
+            198,
+            508
+          ],
+          "bbox_section_relative": [
+            1,
+            120,
+            97,
+            138
+          ],
+          "confidence": 0.9643961787223816,
+          "ocr_text_paddle": "Field Complete",
+          "ocr_text": "Field Complete",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5034,
+          "bbox_pixels": [
+            273,
+            475,
+            436,
+            494
+          ],
+          "bbox_normalized": [
+            441,
+            423,
+            774,
+            493
+          ],
+          "bbox_section_relative": [
+            216,
+            115,
+            379,
+            134
+          ],
+          "confidence": 0.9096135497093201,
+          "ocr_text_paddle": "(From Next Year's Budget)",
+          "ocr_text": "(From Next Year's Budget)",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5035,
+          "bbox_pixels": [
+            273,
+            464,
+            348,
+            480
+          ],
+          "bbox_normalized": [
+            441,
+            383,
+            594,
+            442
+          ],
+          "bbox_section_relative": [
+            216,
+            104,
+            291,
+            120
+          ],
+          "confidence": 0.9391683340072632,
+          "ocr_text_paddle": "This Amount",
+          "ocr_text": "This Amount",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5036,
+          "bbox_pixels": [
+            400,
+            463,
+            413,
+            477
+          ],
+          "bbox_normalized": [
+            701,
+            379,
+            727,
+            430
+          ],
+          "bbox_section_relative": [
+            343,
+            103,
+            356,
+            117
+          ],
+          "confidence": 0.9840703010559082,
+          "ocr_text_paddle": "0",
+          "ocr_text": "0",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5037,
+          "bbox_pixels": [
+            272,
+            437,
+            410,
+            457
+          ],
+          "bbox_normalized": [
+            439,
+            283,
+            721,
+            357
+          ],
+          "bbox_section_relative": [
+            215,
+            77,
+            353,
+            97
+          ],
+          "confidence": 0.9325589537620544,
+          "ocr_text_paddle": "(From Current Budget)",
+          "ocr_text": "(From Current Budget)",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5038,
+          "bbox_pixels": [
+            273,
+            429,
+            353,
+            442
+          ],
+          "bbox_normalized": [
+            441,
+            254,
+            604,
+            302
+          ],
+          "bbox_section_relative": [
+            216,
+            69,
+            296,
+            82
+          ],
+          "confidence": 0.9822524189949036,
+          "ocr_text_paddle": "This Change:",
+          "ocr_text": "This Change:",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5039,
+          "bbox_pixels": [
+            504,
+            423,
+            529,
+            439
+          ],
+          "bbox_normalized": [
+            913,
+            232,
+            964,
+            290
+          ],
+          "bbox_section_relative": [
+            447,
+            63,
+            472,
+            79
+          ],
+          "confidence": 0.9979357719421387,
+          "ocr_text_paddle": ".08",
+          "ocr_text": ".08",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5040,
+          "bbox_pixels": [
+            70,
+            419,
+            120,
+            436
+          ],
+          "bbox_normalized": [
+            26,
+            217,
+            128,
+            279
+          ],
+          "bbox_section_relative": [
+            13,
+            59,
+            63,
+            76
+          ],
+          "confidence": 0.9610592126846313,
+          "ocr_text_paddle": "Wave(s)",
+          "ocr_text": "Wave(s)",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5041,
+          "bbox_pixels": [
+            57,
+            404,
+            161,
+            423
+          ],
+          "bbox_normalized": [
+            0,
+            162,
+            212,
+            232
+          ],
+          "bbox_section_relative": [
+            0,
+            44,
+            104,
+            63
+          ],
+          "confidence": 0.9595994353294373,
+          "ocr_text_paddle": "Ext. Auth. Date",
+          "ocr_text": "Ext. Auth. Date",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5042,
+          "bbox_pixels": [
+            271,
+            399,
+            432,
+            418
+          ],
+          "bbox_normalized": [
+            437,
+            143,
+            766,
+            213
+          ],
+          "bbox_section_relative": [
+            214,
+            39,
+            375,
+            58
+          ],
+          "confidence": 0.9190229177474976,
+          "ocr_text_paddle": "Current Bal. Available:",
+          "ocr_text": "Current Bal. Available:",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5043,
+          "bbox_pixels": [
+            441,
+            398,
+            527,
+            413
+          ],
+          "bbox_normalized": [
+            784,
+            139,
+            960,
+            195
+          ],
+          "bbox_section_relative": [
+            384,
+            38,
+            470,
+            53
+          ],
+          "confidence": 0.9344732165336609,
+          "ocr_text_paddle": "1,488.126.23",
+          "ocr_text": "1,488,126.23",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5044,
+          "bbox_pixels": [
+            57,
+            378,
+            185,
+            399
+          ],
+          "bbox_normalized": [
+            0,
+            66,
+            261,
+            143
+          ],
+          "bbox_section_relative": [
+            0,
+            18,
+            128,
+            39
+          ],
+          "confidence": 0.8616511821746826,
+          "ocr_text_paddle": "Internal Init. Date",
+          "ocr_text": "Internal Init. Date",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5045,
+          "bbox_pixels": [
+            271,
+            374,
+            391,
+            394
+          ],
+          "bbox_normalized": [
+            437,
+            51,
+            682,
+            125
+          ],
+          "bbox_section_relative": [
+            214,
+            14,
+            334,
+            34
+          ],
+          "confidence": 0.8979734778404236,
+          "ocr_text_paddle": "Total Area Budget:",
+          "ocr_text": "Total Area Budget:",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5046,
+          "bbox_pixels": [
+            435,
+            370,
+            526,
+            390
+          ],
+          "bbox_normalized": [
+            772,
+            36,
+            958,
+            110
+          ],
+          "bbox_section_relative": [
+            378,
+            10,
+            469,
+            30
+          ],
+          "confidence": 0.9784932732582092,
+          "ocr_text_paddle": "$2,960,000.00",
+          "ocr_text": "$2,960,000.00",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5047,
+          "bbox_pixels": [
+            57,
+            366,
+            125,
+            386
+          ],
+          "bbox_normalized": [
+            0,
+            22,
+            138,
+            95
+          ],
+          "bbox_section_relative": [
+            0,
+            6,
+            68,
+            26
+          ],
+          "confidence": 0.9938911199569702,
+          "ocr_text_paddle": "PROJECTED:",
+          "ocr_text": "PROJECTED:",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5048,
+          "bbox_pixels": [
+            270,
+            362,
+            416,
+            381
+          ],
+          "bbox_normalized": [
+            435,
+            7,
+            733,
+            77
+          ],
+          "bbox_section_relative": [
+            213,
+            2,
+            359,
+            21
+          ],
+          "confidence": 0.9304924011230469,
+          "ocr_text_paddle": "Summary of IMRD Budget",
+          "ocr_text": "Summary of IMRD Budget",
+          "font_style": "normal",
+          "decoration": "normal"
+        }
+      ],
+      "raw_text": "",
+      "ocr_text": "PROJECTED:\nSummary of IMRD Budget\nTotal Area Budget: $2,960,000.00\nCurrent Bal. Available: 1,488,126.23\nThis Change: .08\nThis Amount 0 (From Next Year's Budget)\nNew Balance: 1,488,126.15\nCommitted to Date: (Current Year) 1,471,873.85\nFinal Report Due (Supplier Rpt.)\nField Complete Wave(s)\nExt. Auth. Date\nInternal Init. Date\nWave(s)",
+      "children_ocr_texts": [
+        "PROJECTED:",
+        "Summary of IMRD Budget",
+        "Total Area Budget:",
+        "$2,960,000.00",
+        "Current Bal. Available:",
+        "1,488,126.23",
+        "This Change:",
+        ".08",
+        "This Amount",
+        "0",
+        "(From Next Year's Budget)",
+        "New Balance:",
+        "1,488,126.15",
+        "Committed to Date:",
+        "(Current Year)",
+        "1,471,873.85",
+        "Final Report Due",
+        "(Supplier Rpt.)",
+        "Field Complete",
+        "Wave(s)",
+        "Ext. Auth. Date",
+        "Internal Init. Date",
+        "Wave(s)"
+      ],
+      "entities": [
+        {
+          "key": "Total Area Budget",
+          "value": "$2,960,000.00"
+        },
+        {
+          "key": "Current Bal. Available",
+          "value": "1,488,126.23"
+        },
+        {
+          "key": "This Change",
+          "value": ".08"
+        },
+        {
+          "key": "This Amount",
+          "value": "0"
+        },
+        {
+          "key": "New Balance",
+          "value": "1,488,126.15"
+        },
+        {
+          "key": "Committed to Date (Current Year)",
+          "value": "1,471,873.85"
+        }
+      ],
+      "description": "Projected budget summary section with current balance, change, new balance, and committed amount for the current year."
+    },
+    {
+      "id": 2,
+      "label": "Figure",
+      "bbox_pixels": [
+        61,
+        652,
+        561,
+        795
+      ],
+      "bbox_normalized": [
+        81,
+        667,
+        753,
+        814
+      ],
+      "confidence": 0.8662382364273071,
+      "children": [
+        {
+          "id": 5049,
+          "bbox_pixels": [
+            380,
+            776,
+            553,
+            793
+          ],
+          "bbox_normalized": [
+            653,
+            887,
+            1007,
+            1009
+          ],
+          "bbox_section_relative": [
+            319,
+            124,
+            492,
+            141
+          ],
+          "confidence": 0.9757682085037231,
+          "ocr_text_paddle": "Account Name International",
+          "ocr_text": "Account Name International",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5050,
+          "bbox_pixels": [
+            154,
+            770,
+            236,
+            785
+          ],
+          "bbox_normalized": [
+            190,
+            844,
+            358,
+            952
+          ],
+          "bbox_section_relative": [
+            93,
+            118,
+            175,
+            133
+          ],
+          "confidence": 0.8405239582061768,
+          "ocr_text_paddle": "N. W.Kremer",
+          "ocr_text": "N. W. Kremer",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5051,
+          "bbox_pixels": [
+            63,
+            763,
+            85,
+            776
+          ],
+          "bbox_normalized": [
+            4,
+            794,
+            49,
+            887
+          ],
+          "bbox_section_relative": [
+            2,
+            111,
+            24,
+            124
+          ],
+          "confidence": 0.9519802927970886,
+          "ocr_text_paddle": "cc:",
+          "ocr_text": "cc:",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5052,
+          "bbox_pixels": [
+            154,
+            757,
+            209,
+            773
+          ],
+          "bbox_normalized": [
+            190,
+            751,
+            303,
+            866
+          ],
+          "bbox_section_relative": [
+            93,
+            105,
+            148,
+            121
+          ],
+          "confidence": 0.9287638664245605,
+          "ocr_text_paddle": "MRA File",
+          "ocr_text": "MRA File",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5053,
+          "bbox_pixels": [
+            381,
+            750,
+            511,
+            768
+          ],
+          "bbox_normalized": [
+            655,
+            701,
+            921,
+            830
+          ],
+          "bbox_section_relative": [
+            320,
+            98,
+            450,
+            116
+          ],
+          "confidence": 0.942428708076477,
+          "ocr_text_paddle": "Project No. 1989-29",
+          "ocr_text": "Project No. 1989-29",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5054,
+          "bbox_pixels": [
+            61,
+            743,
+            131,
+            765
+          ],
+          "bbox_normalized": [
+            0,
+            651,
+            143,
+            809
+          ],
+          "bbox_section_relative": [
+            0,
+            91,
+            70,
+            113
+          ],
+          "confidence": 0.9862235188484192,
+          "ocr_text_paddle": "Original-",
+          "ocr_text": "Original-",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5055,
+          "bbox_pixels": [
+            153,
+            744,
+            236,
+            760
+          ],
+          "bbox_normalized": [
+            188,
+            658,
+            358,
+            773
+          ],
+          "bbox_section_relative": [
+            92,
+            92,
+            175,
+            108
+          ],
+          "confidence": 0.981696605682373,
+          "ocr_text_paddle": "Project File",
+          "ocr_text": "Project File",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5056,
+          "bbox_pixels": [
+            152,
+            720,
+            235,
+            735
+          ],
+          "bbox_normalized": [
+            186,
+            486,
+            356,
+            594
+          ],
+          "bbox_section_relative": [
+            91,
+            68,
+            174,
+            83
+          ],
+          "confidence": 0.8876681923866272,
+          "ocr_text_paddle": "N. W.Kremer",
+          "ocr_text": "N. W. Kremer",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5057,
+          "bbox_pixels": [
+            61,
+            705,
+            144,
+            727
+          ],
+          "bbox_normalized": [
+            0,
+            379,
+            169,
+            537
+          ],
+          "bbox_section_relative": [
+            0,
+            53,
+            83,
+            75
+          ],
+          "confidence": 0.9896876811981201,
+          "ocr_text_paddle": "Approved By:",
+          "ocr_text": "Approved By:",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5058,
+          "bbox_pixels": [
+            376,
+            700,
+            413,
+            720
+          ],
+          "bbox_normalized": [
+            645,
+            343,
+            720,
+            486
+          ],
+          "bbox_section_relative": [
+            315,
+            48,
+            352,
+            68
+          ],
+          "confidence": 0.9988402128219604,
+          "ocr_text_paddle": "Date",
+          "ocr_text": "Date",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5059,
+          "bbox_pixels": [
+            441,
+            683,
+            518,
+            715
+          ],
+          "bbox_normalized": [
+            778,
+            221,
+            935,
+            451
+          ],
+          "bbox_section_relative": [
+            380,
+            31,
+            457,
+            63
+          ],
+          "confidence": 0.5568317174911499,
+          "ocr_text_paddle": "412210",
+          "ocr_text": "412210",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5060,
+          "bbox_pixels": [
+            172,
+            686,
+            187,
+            694
+          ],
+          "bbox_normalized": [
+            227,
+            243,
+            258,
+            300
+          ],
+          "bbox_section_relative": [
+            111,
+            34,
+            126,
+            42
+          ],
+          "confidence": 0.19938623905181885,
+          "ocr_text_paddle": "0",
+          "ocr_text": "0",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5061,
+          "bbox_pixels": [
+            153,
+            684,
+            170,
+            697
+          ],
+          "bbox_normalized": [
+            188,
+            229,
+            223,
+            322
+          ],
+          "bbox_section_relative": [
+            92,
+            32,
+            109,
+            45
+          ],
+          "confidence": 0.9721066951751709,
+          "ocr_text_paddle": "M.",
+          "ocr_text": "M.",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5062,
+          "bbox_pixels": [
+            189,
+            683,
+            227,
+            696
+          ],
+          "bbox_normalized": [
+            262,
+            221,
+            339,
+            315
+          ],
+          "bbox_section_relative": [
+            128,
+            31,
+            166,
+            44
+          ],
+          "confidence": 0.9909659624099731,
+          "ocr_text_paddle": "Davis",
+          "ocr_text": "Davis",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5063,
+          "bbox_pixels": [
+            61,
+            667,
+            150,
+            689
+          ],
+          "bbox_normalized": [
+            0,
+            107,
+            182,
+            264
+          ],
+          "bbox_section_relative": [
+            0,
+            15,
+            89,
+            37
+          ],
+          "confidence": 0.9701114296913147,
+          "ocr_text_paddle": "Submitted By:",
+          "ocr_text": "Submitted By:",
+          "font_style": "normal",
+          "decoration": "normal"
+        },
+        {
+          "id": 5064,
+          "bbox_pixels": [
+            374,
+            652,
+            514,
+            685
+          ],
+          "bbox_normalized": [
+            641,
+            0,
+            927,
+            236
+          ],
+          "bbox_section_relative": [
+            313,
+            0,
+            453,
+            33
+          ],
+          "confidence": 0.7621414661407471,
+          "ocr_text_paddle": "Date /21/90",
+          "ocr_text": "Date 6/21/90",
+          "font_style": "normal",
+          "decoration": "normal"
+        }
+      ],
+      "raw_text": "",
+      "ocr_text": "Submitted By: M. D. Davis\nApproved By: N. W. Kremer\nOriginal -\ncc: MRA File\nProject File\nN. W. Kremer\nProject No. 1989-29\nAccount Name International\nDate 6/21/90\nDate 6/22/90",
+      "children_ocr_texts": [
+        "Account Name International",
+        "N. W. Kremer",
+        "cc:",
+        "MRA File",
+        "Project No. 1989-29",
+        "Original-",
+        "Project File",
+        "N. W. Kremer",
+        "Approved By:",
+        "Date",
+        "412210",
+        "0",
+        "M.",
+        "Davis",
+        "Submitted By:",
+        "Date 6/21/90"
+      ],
+      "entities": [
+        {
+          "key": "Submitted By",
+          "value": "M. D. Davis"
+        },
+        {
+          "key": "Approved By",
+          "value": "N. W. Kremer"
+        },
+        {
+          "key": "Project No.",
+          "value": "1989-29"
+        },
+        {
+          "key": "Account Name",
+          "value": "International"
+        },
+        {
+          "key": "Submitted Date",
+          "value": "6/21/90"
+        },
+        {
+          "key": "Approved Date",
+          "value": "6/22/90"
+        }
+      ],
+      "description": "A form with submission and approval details, including names, dates, and project information."
+    },
+    {
+      "id": 7,
+      "label": "Text",
+      "bbox_pixels": [
+        507,
+        813,
+        612,
+        834
+      ],
+      "bbox_normalized": [
+        681,
+        832,
+        822,
+        854
+      ],
+      "confidence": 0.6465639472007751,
+      "children": [
+        {
+          "id": 5065,
+          "bbox_pixels": [
+            507,
+            813,
+            612,
+            834
+          ],
+          "bbox_normalized": [
+            0,
+            0,
+            1024,
+            1024
+          ],
+          "bbox_section_relative": [
+            0,
+            0,
+            105,
+            21
+          ],
+          "confidence": 0.9987097978591919,
+          "ocr_text_paddle": "464537440",
+          "ocr_text": "464537440",
+          "font_style": "normal",
+          "decoration": "normal"
+        }
+      ],
+      "raw_text": "",
+      "ocr_text": "464537440",
+      "children_ocr_texts": [
+        "464537440"
+      ],
+      "entities": [
+        {
+          "key": "ID",
+          "value": "464537440"
+        }
+      ],
+      "description": "A single numeric ID or code."
+    },
+    {
+      "id": 8,
+      "label": "Text",
+      "bbox_pixels": [
+        13,
+        915,
+        27,
+        923
+      ],
+      "bbox_normalized": [
+        17,
+        936,
+        36,
+        945
+      ],
+      "confidence": 0.4521010220050812,
+      "children": [],
+      "raw_text": "",
+      "ocr_text": "",
+      "children_ocr_texts": [],
+      "entities": [],
+      "description": "Empty section with no content."
+    }
+  ],
+  "processing_timestamp": "2025-12-23T05:40:08.951784",
+  "summary": "# Document Summary: Change of Authorized Cost for International Marketing Research\n\nThis document is an official form titled “CHANGE OF AUTHORIZED COST” under the umbrella of “INTERNATIONAL MARKETING RESEARCH.” It details a financial adjustment for a specific project, the “Hong Kong: Cigarette Market Monitor,” which is being conducted by the supplier MDR, HK. The form is dated June 21, 1990, and is marked as No. 27. It was submitted and approved in a short timeframe, with the submission date of June 21, 1990, and the approval date of June 22, 1990, indicating a swift internal review process.\n\n## Key Financial Adjustments\n\nThe document centers on a cost increase for the project, with the following key financial figures:\n\n- **Previous Commitments for This Project:** $43,335.00\n- **1990 Cost (Original Budget Allocation):** $0.00\n- **Amount of Change (Increase):** $4,376.47 (noted as a 10% change)\n- **Adjusted Total Cost of Project:** $47,711.47\n- **Reason for Change:** The original MRA (Marketing Research Agreement) did not include the cost for the first month of the study. This is explicitly referenced to a memo from L. Lee dated September 11, 1989, which serves as the justification for the adjustment.\n\n## Project Budget and Financial Projections\n\nA “Summary of IMRD Budget” is provided, which includes the following projections and balances:\n\n- **Total Area Budget:** $2,960,000.00\n- **Current Balance Available:** $1,488,126.23\n- **This Change (from current budget):** $0.08\n- **This Amount (from next year’s budget):** $0.00\n- **New Balance (after adjustment):** $1,488,126.15\n- **Committed to Date (Current Year):** $1,471,873.85\n\nThe adjustment of $0.08 is a very small change, which is likely a typographical or rounding error, as the main cost increase of $4,376.47 is not reflected in the budget summary. The new balance is slightly less than the current available balance, which is expected given the small amount of the change. The “Committed to Date” figure is also very close to the new balance, indicating that the project is well within its budgetary limits.\n\n## Project and Administrative Details\n\nThe form includes several administrative fields, some of which are left blank, such as “Internal Init. Date,” “Ext. Auth. Date,” “Field Complete Wave(s),” and “Final Report Due (Supplier Rpt.) Wave(s).” These fields are likely to be filled out as the project progresses.\n\nThe form is signed and approved by:\n\n- **Submitted By:** M. D. Davis\n- **Approved By:** N. W. Kremer\n\nThe document also includes a “cc:” line, indicating that copies were sent to the MRA File and the Project File, both of which are associated with N. W. Kremer. The project is identified as “Project No. 1989-29” and is under the “Account Name International.”\n\n## Document Structure and Layout\n\nThe document is structured in a clear, form-based layout, with distinct sections for:\n\n1. **Header Information** (Title, Date, Number, Description, Supplier)\n2. **Financial Summary** (Previous Commitments, Change, Adjusted Total)\n3. **Reasons for Change** (Reference to a prior memo)\n4. **Projected Budget Summary** (Total Budget, Current Balance, New Balance, Committed Amount)\n5. **Administrative and Approval Section** (Submitted By, Approved By, Project File, Account Name, Dates)\n6. **Document ID** (A unique number, 464537440, is present at the bottom of the page)\n\nThe document is typewritten, with some handwritten entries (e.g., the names of the submitter and approver, and the dates). The layout is clean and professional, designed for internal use within an organization to track and approve changes in project costs.\n\n## Notable Entities\n\n- **Project Name:** Hong Kong: Cigarette Market Monitor\n- **Supplier:** MDR, HK\n- **Date of Document:** June 21, 1990\n- **Document Number:** 27\n- **Submitted By:** M. D. Davis\n- **Approved By:** N. W. Kremer\n- **Project No.:** 1989-29\n- **Account Name:** International\n- **ID Number:** 464537440\n- **Reference Memo:** L. Lee, September 11, 1989\n\n## Overall Purpose\n\nThe primary purpose of this document is to formally request and document a change in the authorized cost for the “Hong Kong: Cigarette Market Monitor” project, specifically to account for the cost of the first month of the study, which was previously omitted. The document serves as a record of the adjustment, providing justification, financial details, and approval signatures to ensure proper accounting and budgetary control. The small change in the budget summary suggests that the main cost increase is not being reflected in the overall budget, which may require further clarification or correction."
+}

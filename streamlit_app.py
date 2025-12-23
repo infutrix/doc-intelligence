@@ -199,19 +199,37 @@ def find_image_in_folder(folder_path: str, data: Dict) -> Optional[Image.Image]:
 # ============================================================================
 
 def main():
-    st.set_page_config(page_title="IndiaAI Intelligent Document Processing Challenge", page_icon="📄", layout="wide", initial_sidebar_state="expanded")
+    st.set_page_config(page_title="Document Intelligence", page_icon="📄", layout="wide", initial_sidebar_state="expanded")
     
-    # CSS
+    # CSS with sticky header
     st.markdown("""
     <style>
+    .sticky-header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        padding: 12px 20px;
+        z-index: 999;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        font-size: 1.3em;
+        font-weight: 700;
+    }
+    .main-content { margin-top: 60px; }
     .entity-box { background: linear-gradient(135deg, #f5f7fa 0%, #e8ecf1 100%); padding: 12px 16px; border-radius: 8px; border-left: 4px solid #667eea; margin: 8px 0; }
     .entity-key { font-weight: 700; color: #2c3e50; font-size: 0.85em; text-transform: uppercase; }
     .entity-value { font-size: 1.1em; color: #1a1a2e; margin-top: 2px; }
-    .summary-box { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 15px; border-radius: 10px; color: white; margin: 10px 0; }
+    .summary-box { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 15px; border-radius: 10px; color: white; margin: 10px 0; cursor: pointer; }
+    .summary-box-expanded { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 15px; border-radius: 10px; color: white; margin: 10px 0; }
     .section-card { padding: 15px; border-radius: 10px; color: white; margin-bottom: 12px; }
     .ocr-box { background: #1e1e2e; color: #cdd6f4; padding: 15px; border-radius: 8px; font-family: monospace; font-size: 0.9em; white-space: pre-wrap; max-height: 250px; overflow-y: auto; }
     .upload-area { background: #f8f9fa; border: 2px dashed #dee2e6; border-radius: 12px; padding: 40px; text-align: center; margin: 20px 0; }
     </style>
+    
+    <div class="sticky-header">📄 Document Intelligence</div>
+    <div class="main-content"></div>
     """, unsafe_allow_html=True)
     
     # Session state
@@ -228,7 +246,7 @@ def main():
         
         base_folder = st.text_input(
             "Results Folder:",
-            value=r"/workspace/Paras/Streamlit/Dhananjay/OCR_challenge/github_run",
+            value=str(Path(__file__).parent / "demo_data"),
             key="base_folder",
             label_visibility="collapsed"
         )
@@ -300,14 +318,19 @@ def main():
         summary = data.get('summary', '')
         img_width, img_height = image.size
         
-        # Header
+        # Header with Document Intelligence
+        st.markdown("## 📄 Document Intelligence")
         doc_name = Path(folder_path).name if folder_path else "Document"
-        st.markdown(f"## 📄 {doc_name}")
+        st.caption(f"Viewing: {doc_name}")
         
-        col1, col2, col3 = st.columns(3)
-        col1.metric("Sections", len(sections))
-        col2.metric("Entities", sum(len(s.get('entities', [])) for s in sections))
-        col3.metric("Size", f"{img_width}×{img_height}")
+        # Page Summary (truncated, expandable)
+        if summary:
+            truncated = summary[:200] + "..." if len(summary) > 200 else summary
+            with st.expander("📝 Page Summary (click to expand)", expanded=False):
+                st.markdown(f'<div class="summary-box-expanded">{summary}</div>', unsafe_allow_html=True)
+            st.markdown(f'<div class="summary-box">{truncated}</div>', unsafe_allow_html=True)
+        else:
+            st.info("No page summary available")
         
         st.markdown("---")
         
@@ -338,26 +361,19 @@ def main():
                 st.image(annotated_img, use_container_width=True)
         
         with col_detail:
-            # Summary
-            st.markdown("### 📝 Summary")
-            if summary:
-                truncated = summary[:180] + "..." if len(summary) > 180 else summary
-                st.markdown(f'<div class="summary-box">{truncated}</div>', unsafe_allow_html=True)
-                if len(summary) > 180:
-                    with st.expander("📖 Full Summary"):
-                        st.write(summary)
-            else:
-                st.info("No summary available")
-            
-            st.markdown("---")
             
             # Section Details
-            st.markdown("### 🔍 Section Details")
+            st.markdown("### � Section Details")
             
             if st.session_state['selected_section_id'] is not None:
                 selected = next((s for s in sections if s.get('id') == st.session_state['selected_section_id']), None)
                 
                 if selected:
+                    # Back button to deselect section
+                    if st.button("⬅️ Back to Page View", use_container_width=True):
+                        st.session_state['selected_section_id'] = None
+                        st.rerun()
+                    
                     label = selected.get('label', 'Unknown')
                     color = get_section_color(label)
                     
@@ -381,9 +397,6 @@ def main():
                         st.caption("No entities")
             else:
                 st.info("👈 Click on a section in the image")
-                for s in sections[:5]:
-                    color = get_section_color(s.get('label', ''))
-                    st.markdown(f"<span style='color:{color};'>●</span> **{s.get('id')}**: {s.get('label', '')}", unsafe_allow_html=True)
             
             # Expanders
             with st.expander("📄 Full OCR Text"):
@@ -397,7 +410,7 @@ def main():
     
     else:
         # === UPLOAD/PROCESS VIEW (Main Page) ===
-        st.markdown("# 📄 IndiaAI Intelligent Document Processing Challenge")
+        st.markdown("## 📄 Document Intelligence")
         st.markdown("Process documents with AI-powered OCR and entity extraction")
         
         st.markdown("---")

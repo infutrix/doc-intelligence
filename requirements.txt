@@ -1,72 +1,71 @@
-# ==============================================================================
-# OCR Pipeline V2 - Requirements
-# ==============================================================================
-# Install with: pip install -r requirements.txt
-# ==============================================================================
+# ===============================
+# Core
+# ===============================
+numpy==2.2.6
+pillow==10.4.0
+packaging==25.0
+tqdm==4.67.1
+requests==2.32.5
+regex==2025.11.3
 
-# -----------------------------------------------------------------------------
-# Core Dependencies
-# -----------------------------------------------------------------------------
-numpy
-opencv-python
-Pillow
+# ===============================
+# Vision / Layout
+# ===============================
+doclayout-yolo==0.0.2b1
+opencv-python-headless==4.10.0.84
+opencv-contrib-python==4.10.0.84
+# NOTE:
+# - opencv-python (GUI) is intentionally NOT listed
+# - contrib is required by PaddleX PDFReaderBackend
 
-# -----------------------------------------------------------------------------
-# Document Layout Detection (Stage 1)
-# -----------------------------------------------------------------------------
-doclayout-yolo
+# ===============================
+# Paddle OCR (GPU + doc parser)
+# ===============================
+paddleocr[doc-parser]==3.3.2
+paddlex==3.3.12
+# paddlepaddle-gpu is installed separately (see install steps)
 
-# -----------------------------------------------------------------------------
-# Text Detection & Recognition (Stage 2)
-# -----------------------------------------------------------------------------
-paddleocr
-paddlepaddle          # CPU version
-# paddlepaddle-gpu    # Uncomment for GPU support (requires CUDA)
+# ===============================
+# Torch / LLM
+# ===============================
+torch==2.8.0
+torchvision==0.23.0
+triton==3.4.0
+transformers==4.57.3
+accelerate==1.11.0
+qwen-vl-utils==0.0.10
+sentencepiece==0.2.1
+safetensors==0.7.0
 
-# -----------------------------------------------------------------------------
-# Vision Language Model (Stage 3)
-# -----------------------------------------------------------------------------
-torch
-transformers>=4.37.0
-qwen-vl-utils
-accelerate
+# ===============================
+# PDF / Document handling
+# ===============================
+pdf2image==1.17.0
+pypdf==6.0.0
+pypdfium2==5.2.0
+PyMuPDF==1.24.14
+openpyxl==3.1.5
 
-# -----------------------------------------------------------------------------
-# PDF Processing
-# -----------------------------------------------------------------------------
-pdf2image
-# SYSTEM DEPENDENCY: Poppler required
-#   Windows: https://github.com/oschwartz10612/poppler-windows/releases
-#   Linux:   sudo apt-get install poppler-utils
-#   Mac:     brew install poppler
+# ===============================
+# Data / ML utils
+# ===============================
+pandas==2.3.2
+scikit-learn==1.8.0
+scipy==1.16.3
+shapely==2.1.2
+joblib==1.5.3
 
-# -----------------------------------------------------------------------------
-# Streamlit Web UI
-# -----------------------------------------------------------------------------
-streamlit
-pandas
-streamlit-image-coordinates    # For click detection on images
+# ===============================
+# UI
+# ===============================
+streamlit==1.50.0
+streamlit-image-coordinates==0.4.0
 
-# -----------------------------------------------------------------------------
-# Optional: Faster Inference (requires CUDA & compilation)
-# -----------------------------------------------------------------------------
-# pip install flash-attn --no-build-isolation
-
-# ==============================================================================
-# SYSTEM DEPENDENCIES (install separately)
-# ==============================================================================
-#
-# 1. POPPLER (required for PDF processing)
-#    ├── Windows: Download from poppler-windows releases, add bin/ to PATH
-#    ├── Linux:   sudo apt-get install poppler-utils
-#    └── Mac:     brew install poppler
-#
-# 2. HINDI/DEVANAGARI FONTS (for visualization)
-#    ├── Windows: Pre-installed (Nirmala UI, Mangal)
-#    ├── Linux:   sudo apt-get install fonts-noto fonts-noto-extra
-#    └── Mac:     Pre-installed (Arial Unicode)
-#
-# 3. DOCLAYOUT-YOLO MODEL
-#    └── Download and place in models/ folder, update config.py
-#
-# ==============================================================================
+# ===============================
+# Misc required by deps
+# ===============================
+protobuf==6.33.2
+psutil==7.1.3
+pyclipper==1.4.0
+python-bidi==0.6.7
+six==1.17.0
