@@ -1,6 +1,6 @@
 # Document Intelligence
 
-<img src="resource\Document%20OCR%20Processing-2025-12-22-121736.svg" alt="Document OCR Processing" width="600">
+<img src="resource\Document OCR Processing-2025-12-23-190655.png" alt="Document OCR Processing" width="600">
 
 A modular OCR pipeline using **DocLayout-YOLO**, **PaddleOCR**, and **Qwen3-VL** Vision LLM for intelligent document understanding.
 
